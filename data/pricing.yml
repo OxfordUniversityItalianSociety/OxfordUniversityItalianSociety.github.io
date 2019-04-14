@@ -1,0 +1,56 @@
+enable : true
+heading : Our Italian
+headingSpan : Classes
+pricingTable :
+  - title : Beginner
+    price : $99
+    time : month
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Davis & Serena
+      - planDetails : 47 Wellington Square
+      - planDetails : Basement Seminar Room
+      - planDetails : Thursday
+      - planDetails : 7:00 pm
+      - planDetails : 8.30 pm
+
+  - title : Improver
+    price : $149
+    time : month
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Ettore & Isaac
+      - planDetails : Oxford University Student Union
+      - planDetails : --
+      - planDetails : Thursday
+      - planDetails : 6:30 pm
+      - planDetails : 8:00 pm
+
+     
+  - title : Intermediate
+    price : $199
+    time : month
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Sofia
+      - planDetails : Oriel College
+      - planDetails : --
+      - planDetails : Wednesday
+      - planDetails : 6:00 pm
+      - planDetails : 7:30 pm
+            
+  - title : Advanced
+    price : $299
+    time : month
+    btnURL : #
+    btnText : Signup
+    plan :
+      - planDetails : Althea & Davide
+      - planDetails : Somerville College
+      - planDetails : --
+      - planDetails : Monday
+      - planDetails : 7:00 pm
+      - planDetails : 8.30 pm

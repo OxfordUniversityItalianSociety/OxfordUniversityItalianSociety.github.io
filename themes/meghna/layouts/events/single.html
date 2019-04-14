@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="event-title">
+                    <h1>{{ .Title }}</h1>
+                </div>
+                <ul type="disc"> 
+                    <li><b>Date:</b> {{ dateFormat "Monday, Jan 2, 2006" .Params.startDate }}</li>
+                    <li><b>Time:</b> {{ dateFormat "15:04" .Params.startDate }} - {{ dateFormat "15:04" .Params.endDate }}</li>
+                    <li><b>Place:</b> {{ .Params.place }} </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-event"></div>
+        <!-- <div class="border-meghna"></div> -->
+        <div class="row">
+            <div class="col-3">
+                {{ with .Params.image }}<img class="img-fluid mb-50" src="{{ . | absURL }}" alt="event-image">{{ end }}
+            </div>
+            <div class="col-9">
+                <div class="post-single-content">
+                    {{ .Content }}
+                    {{ if .Site.Data.blog.sharing}}
+                        {{ partial "share_post" . }}
+                    {{ end }}
+                    {{ partial "post_comments" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

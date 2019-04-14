@@ -1,0 +1,148 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+{{"<!-- Start Committee Section -->" | safeHTML}}
+<section id="executive" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.team.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.team.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+            <div class="col-lg-12">
+                {{"<!-- sub section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.team.subHeading1 }} {{ . }} {{ end }}</h2>
+                </div>
+            </div>
+            {{"<!-- /sub section title -->" | safeHTML}}
+            {{ range .Site.Data.team.teamMemberExecutive}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="team-member">
+                    <div class="member-photo">
+                        {{"<!-- member photo -->" | safeHTML}}
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="Meghna">
+
+                        {{"<!-- member social profile -->" | safeHTML}}
+                        <div class="mask">
+                            <ul class="list-inline">
+                                {{ range .socialIcon }}
+                                <li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+
+                    {{"<!-- member name & designation -->" | safeHTML}}
+                    <div class="member-meta">
+                        <h4>{{ .name }}</h4>
+                        <span>{{ .designation }}</span>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{"<!-- end team member -->" | safeHTML}}
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{"<!-- /committee -->" | safeHTML}}
+<div class="border-simple"></div>
+{{"<!-- Start Junior Committee Section -->" | safeHTML}}
+<section id="junior" class="section">
+    <div class="container">
+        <div class="row" >
+            <div class="col-lg-12">
+                {{"<!-- sub section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.team.subHeading2 }} {{ . }} {{ end }}</h2>
+                </div>
+            </div>
+            {{"<!-- /sub section title -->" | safeHTML}}
+
+            {{ range .Site.Data.team.teamMemberJunior}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-member">
+                    <div class="member-photo">
+                        {{"<!-- member photo -->" | safeHTML}}
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="Meghna">
+
+                        {{"<!-- member social profile -->" | safeHTML}}
+                        <div class="mask">
+                            <ul class="list-inline">
+                                {{ range .socialIcon }}
+                                <li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+
+                    {{"<!-- member name & designation -->" | safeHTML}}
+                    <div class="member-meta">
+                        <h4>{{ .name }}</h4>
+                        <span>{{ .designation }}</span>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{"<!-- end team member -->" | safeHTML}}
+            {{ end }}
+            
+        </div>
+    </div>
+</div>
+{{"<!-- /committee -->" | safeHTML}}
+<div class="border-simple"></div>
+<!--{{"<!-- Start Senior Committee Section -->" | safeHTML}}
+<section id="senior" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- sub section title-->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.team.subHeading3 }} {{ . }} {{ end }}</h2>
+                </div>
+            </div>
+            {{"<!-- /sub section title -->" | safeHTML}}
+
+            {{ range .Site.Data.team.teamMemberSenior}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="team-member">
+                    <div class="member-photo">
+                        {{"<!-- member photo -->" | safeHTML}}
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="Meghna">
+
+                        {{"<!-- member social profile -->" | safeHTML}}
+                        <div class="mask">
+                            <ul class="list-inline">
+                                {{ range .socialIcon }}
+                                <li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+
+                    {{"<!-- member name & designation -->" | safeHTML}}
+                    <div class="member-meta">
+                        <h4>{{ .name }}</h4>
+                        <span>{{ .designation }}</span>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{"<!-- end team member -->" | safeHTML}}
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /committee -->" | safeHTML}} -->
+
+{{ end }}

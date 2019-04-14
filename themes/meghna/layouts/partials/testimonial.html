@@ -1,0 +1,50 @@
+{{ if .Site.Data.testimonial.enable }}
+{{"<!-- Start Testimonial -->" | safeHTML}}
+<section id="sponsors" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+                    <h2>{{ with .Site.Data.testimonial.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.testimonial.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            <div class="col-lg-12">
+                <div class="title text-center" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+                    <h3>{{ with .Site.Data.testimonial.description }} {{ . }} {{ end }}</h3>
+                </div>
+            </div>
+
+            <div class="col-xl-12">
+                {{"<!-- testimonial wrapper -->" | safeHTML}}
+                <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+                    {{ range .Site.Data.testimonial.testimonialItem }}
+                    {{"<!-- testimonial single -->" | safeHTML}}
+                    <div class="item text-center">
+
+                        {{"<!-- client photo -->" | safeHTML}}
+                        <div class="client-thumb">
+                            <img src="{{ .image | absURL }}" class="img-fluid" alt="Meghna">
+                        </div>
+                    </div>
+                    {{"<!-- /testimonial single -->" | safeHTML}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="all-testimonials text-center col-6">
+                <a class="btn btn-main" href="{{ .Site.Data.testimonial.donateURL }}">{{ i18n "donate" }}</a>
+            </div>
+            <div class="all-testimonials text-center col-6">
+                <a class="btn btn-main" href="{{ .Site.Data.testimonial.becomeSponsorURL }}">{{ i18n "becomeSponsor" }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /testimonial -->" | safeHTML}}
+{{ end }}

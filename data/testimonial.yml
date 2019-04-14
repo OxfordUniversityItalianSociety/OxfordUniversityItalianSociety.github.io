@@ -1,0 +1,16 @@
+enable : true
+heading: Our
+headingSpan: Sponsors
+bgImage : images/backgrounds/handshake.jpeg
+description: "Special thanks to our sponsors for contributing to make this all happen"
+becomeSponsorURL : '/#contact-us'
+donateURL : https://www.campaign.ox.ac.uk/page.aspx?pid=2698&id=8fdfa0de-90cc-4b06-9f3e-e24205623161
+testimonialItem :
+  - name : Pizza Pilgrims
+    image : images/sponsors/pizzaPilgrims.png
+    
+  - name : Pizza Pilgrims
+    image : images/sponsors/pizzaPilgrims.png
+    
+  - name : Pizza Pilgrims
+    image : images/sponsors/pizzaPilgrims.png
