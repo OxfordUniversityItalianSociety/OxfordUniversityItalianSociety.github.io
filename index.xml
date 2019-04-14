@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OUIS</title>
-    <link>https://oxforduniversityitaliansociety.github.io/</link>
+    <link>/</link>
     <description>Recent content on OUIS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate>
     
-	<atom:link href="https://oxforduniversityitaliansociety.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Are You Doing the Right Way</title>
-      <link>https://oxforduniversityitaliansociety.github.io/blog/are-you-doing-the-right-way/</link>
+      <link>/blog/are-you-doing-the-right-way/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/blog/are-you-doing-the-right-way/</guid>
+      <guid>/blog/are-you-doing-the-right-way/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Simple Post Title</title>
-      <link>https://oxforduniversityitaliansociety.github.io/blog/simple-post-title/</link>
+      <link>/blog/simple-post-title/</link>
       <pubDate>Wed, 12 Sep 2018 14:39:16 +0600</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/blog/simple-post-title/</guid>
+      <guid>/blog/simple-post-title/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Simple Image Post</title>
-      <link>https://oxforduniversityitaliansociety.github.io/blog/simple-image-post/</link>
+      <link>/blog/simple-image-post/</link>
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/blog/simple-image-post/</guid>
+      <guid>/blog/simple-image-post/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Cinema Night</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-05-22-cinema/</link>
+      <link>/events/2019-05-22-cinema/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-05-22-cinema/</guid>
+      <guid>/events/2019-05-22-cinema/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>Elsa Fornero</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-05-27-elsa-fornero/</link>
+      <link>/events/2019-05-27-elsa-fornero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-05-27-elsa-fornero/</guid>
+      <guid>/events/2019-05-27-elsa-fornero/</guid>
       <description>Our second seaker for this term is former Minister Elsa Fornero.</description>
     </item>
     
     <item>
       <title>Goodbye Aperitivo</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</link>
+      <link>/events/2019-06-15-goodbye-aperitivo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</guid>
+      <guid>/events/2019-06-15-goodbye-aperitivo/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>How To Setup Meghna Hugo</title>
-      <link>https://oxforduniversityitaliansociety.github.io/blog/installation/</link>
+      <link>/blog/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/blog/installation/</guid>
+      <guid>/blog/installation/</guid>
       <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
     </item>
     
     <item>
       <title>Joint dinner with OUGS</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-05-14-german-society/</link>
+      <link>/events/2019-05-14-german-society/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-05-14-german-society/</guid>
+      <guid>/events/2019-05-14-german-society/</guid>
       <description>TBD</description>
     </item>
     
     <item>
       <title>Random Old Event</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-03-01-test-old1/</link>
+      <link>/events/2019-03-01-test-old1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-03-01-test-old1/</guid>
+      <guid>/events/2019-03-01-test-old1/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</description>
     </item>
     
     <item>
       <title>Roberto d&#39;Agostino</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-05-10-roberto-d-agostino/</link>
+      <link>/events/2019-05-10-roberto-d-agostino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-05-10-roberto-d-agostino/</guid>
+      <guid>/events/2019-05-10-roberto-d-agostino/</guid>
       <description>We are delighted to be hosting our first speaker of the term: Roberto d&amp;rsquo;Agostino</description>
     </item>
     
     <item>
       <title>Welcome Aperitivo</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-04-28-welcome-aperitivo/</link>
+      <link>/events/2019-04-28-welcome-aperitivo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-04-28-welcome-aperitivo/</guid>
+      <guid>/events/2019-04-28-welcome-aperitivo/</guid>
       <description>OUIS is back! With so many exciting plans for TT2019 we&amp;rsquo;re starting with a classic!</description>
     </item>
     
     <item>
       <title>Wine Tasting</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-06-07-wine-tasting/</link>
+      <link>/events/2019-06-07-wine-tasting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-06-07-wine-tasting/</guid>
+      <guid>/events/2019-06-07-wine-tasting/</guid>
       <description>TBD</description>
     </item>
     
