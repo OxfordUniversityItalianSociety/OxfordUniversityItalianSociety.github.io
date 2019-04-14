@@ -580,10 +580,11 @@ a:hover {
 
 .navigation .logo {
   padding: 0;
+  max-width:50%;
 }
 
 .navigation .logo img {
-  width:10%;
+  max-width:40px;
   border-radius: 10%;
 }
 
@@ -1339,6 +1340,7 @@ a:hover {
   width: 100%;
   position: absolute;
   top: 0px;
+  left: 0px;
 }
 
 @media (max-width: 768px) {
