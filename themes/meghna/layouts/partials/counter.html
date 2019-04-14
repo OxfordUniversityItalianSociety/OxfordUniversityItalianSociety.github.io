@@ -1,6 +1,6 @@
 {{ if .Site.Params.counter.enable }}
 {{"<!-- Start Counter Section -->" | safeHTML}}
-<section id="counter" class="parallax-section bg-1 section overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
+<section id="counter" class="parallax-section bg-1 section" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
     <div class="container">
         <div class="row">
             {{ range .Site.Params.counter.counterItem }}

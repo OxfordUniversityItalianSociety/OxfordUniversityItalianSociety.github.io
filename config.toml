@@ -17,6 +17,11 @@ summaryLength = 10
     URL = "about"
     weight = 2
 
+    [[menu.nav]]
+    name = "Join"
+    URL = "join-us"
+    weight = 3
+
 
     [[menu.nav]]
     name = "Events"
@@ -73,7 +78,7 @@ custom_css = ["css/custom.css"]
     title = "A friendly community & a variety of events"
     content = "Whether you are fascinated by our culture, or you just feel nostalgic about Italy, join our society to enjoy Bella Vita!"
     bgImage = "images/backgrounds/coffee.jpg"
-    btnURL = "#contact-us"
+    btnURL = "membership"
     btnText = "Join Us"
 
     # counter

@@ -93,8 +93,8 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/emmaBaldassarriCatering.png
-    name : Emma Baldassarri
+  - image : images/team/emmaBaldassariCatering.png
+    name : Emma Baldassari
     designation : Catering
     description : ""
     socialIcon :
