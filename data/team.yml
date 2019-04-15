@@ -56,8 +56,8 @@ teamMemberJunior :
     designation : Communication Officer
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/francesco.galvanetto"
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/alessandro.bongioanni"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       # - icon : tf-ion-social-linkedin
@@ -70,8 +70,8 @@ teamMemberJunior :
     designation : Events Secretary
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/federico.danieli19"
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/elena.chiara.casale"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       # - icon : tf-ion-social-linkedin
@@ -84,8 +84,8 @@ teamMemberJunior :
     designation : Teaching Coordinator
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/emma.belletti"
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/ettore.condorelli.7"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       # - icon : tf-ion-social-linkedin
@@ -93,13 +93,28 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
+  - image : images/team/CristianTrovatoITOfficer.jpg
+    name : Cristian Trovato
+    designation : IT Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/cristian.trovato"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      # - icon : tf-ion-social-linkedin
+      #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+
   - image : images/team/emmaBaldassariCatering.png
     name : Emma Baldassari
     designation : Catering
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/emma.belletti"
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/emma.baldassari.58"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       # - icon : tf-ion-social-linkedin
@@ -112,8 +127,8 @@ teamMemberJunior :
     designation : Catering
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/francesco.galvanetto"
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/profile.php?id=100004838595541"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       # - icon : tf-ion-social-linkedin

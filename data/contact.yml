@@ -10,8 +10,8 @@ contactDetails :
   - icon : tf-map-pin
     info : "Oxford, Oxfordshire, UK"
     
-  - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +000-00-000-000"
+  # - icon : tf-ion-ios-telephone-outline
+  #   info : "Phone: +000-00-000-000"
     
   - icon : tf-ion-ios-email-outline
     info : "Contact email: italy.society@studentclubs.ox.ac.uk"
