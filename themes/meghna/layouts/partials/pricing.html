@@ -16,13 +16,11 @@
             {{ range .Site.Data.pricing.pricingTable }}
             {{"<!-- single pricing table -->" | safeHTML}}
             <div class="col-lg-4 col-md-4 col-12 text-center wow fadeInRight" data-wow-duration="200ms">
-                <div class="price-item">
+                <div class="price-item " onClick="window.open( '/classes/#{{ urlize .title }}','_top' ); return false;">
 
                     {{"<!-- plan name & value -->" | safeHTML}}
                     <div class="price-title">
-                        <a href="/classes/#{{ urlize .title }}">
-                            <h3>{{ .title }}</h3>
-                        </a>
+                        <h3>{{ .title }}</h3>
                     </div>
 
                     <div class="description-block">
