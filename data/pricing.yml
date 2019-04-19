@@ -1,56 +1,101 @@
 enable : true
 heading : Our Italian
 headingSpan : Classes
+contact : Join our language courses!
+contactDetails : "If you have any questions, or if you wish to sign up for one of our language courses, please fill the form in this section or contact us at italy.society@studentclubs.ox.ac.uk"
 pricingTable :
   - title : Beginner
-    price : $99
-    time : month
-    btnURL : #
-    btnText : Signup
-    plan :
-      - planDetails : Davis & Serena
-      - planDetails : 47 Wellington Square
-      - planDetails : Basement Seminar Room
-      - planDetails : Thursday
-      - planDetails : 7:00 pm
-      - planDetails : 8.30 pm
+    chatIT : "Ciao! Come stai?"
+    chatEN : "Hello! How are you?"
+    objectives :
+      - item : Understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type
+      - item : Introduce yourself and others and ask and answer questions about personal details such as where you live, people you know and things you have
+      - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
+    teachers:
+      - name : Davis
+        image : /images/teachers/Davis.jpg
+    details: 
+      - icon : 
+        info : "Weekly lessons of 90min each"
+      - icon : tf-ion-android-calendar
+        info : "During each term, weeks 1-8"
+      - icon : tf-ion-android-time
+        info : "Thursday, 7:00pm - 8:30pm"
+      - icon : tf-ion-pricetags
+        info : "OUIS: £15/term -- External: £25/term"
+      - icon : tf-map-pin
+        info : "Oxford University Student Union"
 
-  - title : Improver
-    price : $149
-    time : month
-    btnURL : #
-    btnText : Signup
-    plan :
-      - planDetails : Ettore & Isaac
-      - planDetails : OUSU
-      - planDetails : --
-      - planDetails : Thursday
-      - planDetails : 6:30 pm
-      - planDetails : 8:00 pm
+   
 
-     
   - title : Intermediate
-    price : $199
-    time : month
-    btnURL : #
-    btnText : Signup
-    plan :
-      - planDetails : Sofia
-      - planDetails : Oriel College
-      - planDetails : --
-      - planDetails : Wednesday
-      - planDetails : 6:00 pm
-      - planDetails : 7:30 pm
+    chatIT : "Imparare l'Italiano non è così difficile, dopotutto"
+    chatEN : "Learning Italian is not so hard after all"
+    objectives : 
+      - item : Understand sentences and frequently used expressions related to areas of most immediate relevance (e.g. very basic personal and family information, shopping, local geography, employment)
+      - item : Communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters
+      - item : Describe in simple terms aspects of your background, immediate environment and matters in areas of immediate need
+    teachers:
+      - name : Ettore
+        image : /images/teachers/Ettore.png
+    details: 
+      - icon : 
+        info : "Weekly lessons of 90min each"
+      - icon : tf-ion-android-calendar
+        info : "During each term, weeks 1-8"
+      - icon : tf-ion-android-time
+        info : "Thursday, 6:30pm - 8:00pm"
+      - icon : tf-ion-pricetags
+        info : "OUIS: £15/term -- External: £25/term"
+      - icon : tf-map-pin
+        info : "Oxford University Student Union"
+
+
             
   - title : Advanced
-    price : $299
-    time : month
-    btnURL : #
-    btnText : Signup
-    plan :
-      - planDetails : Althea & Davide
-      - planDetails : Somerville College
-      - planDetails : --
-      - planDetails : Monday
-      - planDetails : 7:00 pm
-      - planDetails : 8.30 pm
+    chatIT : "Nel mezzo del cammin di nostra vita..."
+    chatEN : "When half way through the journey of our life..."
+    objectives : 
+      - item: Understand the main ideas of complex text on both concrete and abstract topics, including technical discussions in your field of specialisation
+      - item: Interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible without strain for either party
+      - item: Produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options
+    teachers:
+      - name : Althea
+        image : /images/teachers/Althea.jpg
+      - name : Davide
+        image : /images/teachers/Davide.jpg
+    details: 
+      - icon : 
+        info : "Weekly lessons of 90min each"
+      - icon : tf-ion-android-calendar
+        info : "During each term, weeks 1-8"
+      - icon : tf-ion-android-time
+        info : "Monday, 7:00pm - 8:30pm"
+      - icon : tf-ion-pricetags
+        info : "OUIS: £15/term -- External: £25/term"
+      - icon : tf-map-pin
+        info : "Oxford University Student Union"
+
+
+
+
+  # - title : Advanced
+  #   chatIT : "Nel mezzo del cammin di nostra vita..."
+  #   chatEN : "When half way through the journey of our life..."
+  #   description : "TBD"
+  #   teachers:
+  #     - name : Althea
+  #       image : /images/teachers/default.jpg
+  #     - name : Davide
+  #       image : /images/teachers/default.jpg
+  #   details: 
+  #     - icon : 
+  #       info : "Weekly lessons of 90min each"
+  #     - icon : tf-ion-android-calendar
+  #       info : "During each term, weeks 1-8"
+  #     - icon : tf-ion-android-time
+  #       info : "Monday, 7:00pm - 8:30pm"
+  #     - icon : tf-ion-pricetags
+  #       info : "OUIS: £15/term -- External: £25/term"
+  #     - icon : tf-map-pin
+  #       info : "Oxford University Student Union"

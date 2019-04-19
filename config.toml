@@ -107,8 +107,8 @@ custom_css = ["css/custom.css"]
 
     # footer
     [params.footer]
-        copyright = "Federico Danieli"
-        copyrightURL = ""
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
 
         # social Icons
         [[params.footer.socialIcon]]

@@ -15,31 +15,27 @@
 
             {{ range .Site.Data.pricing.pricingTable }}
             {{"<!-- single pricing table -->" | safeHTML}}
-            <div class="col-lg-3 col-md-6 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
+            <div class="col-lg-4 col-md-4 col-12 text-center wow fadeInRight" data-wow-duration="200ms">
                 <div class="price-item">
 
                     {{"<!-- plan name & value -->" | safeHTML}}
                     <div class="price-title">
-                        <h3>{{ .title }}</h3>
-<!--                         <p><strong class="value">{{ .price }}</strong>/ {{ .time }}</p> -->
+                        <a href="/classes/#{{ urlize .title }}">
+                            <h3>{{ .title }}</h3>
+                        </a>
                     </div>
 
-                    {{"<!-- plan description -->" | safeHTML}}
-                    <ul>
-                        {{ range .plan }}
-                        <li>{{ .planDetails }}</li>
-                        {{ end }}
-                    </ul>
-
-<!--                     {{"<!-- signup button -->" | safeHTML}}
-                    <a class="btn btn-transparent" href="{{ .btnURL | absURL}}">{{ .btnText }}</a> -->
-
+                    <div class="description-block">
+                        <div class="speech-bubble-IT">{{ .chatIT }}</div>
+                        <div class="speech-bubble-EN">{{ .chatEN }}</div>
+                    </div>
                 </div>
             </div>
             {{"<!-- end single pricing table -->" | safeHTML}}
             {{ end }}
+
             <div class="all-pricing text-center col-lg-12">
-                <a class="btn btn-main" href="#contact-us">{{ i18n "classInfo" }}</a>
+                <a class="btn btn-main" href="classes">More Info on Classes</a>
             </div>
 
         </div>

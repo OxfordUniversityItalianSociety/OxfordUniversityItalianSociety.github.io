@@ -2,7 +2,7 @@
 
 {{ partial "navigation.html" . }}
 {{"<!-- Start Classes Section -->" | safeHTML}}
-<section id="pricing" class="section">
+<section id="classes" class="section">
     <div class="container">
         <div class="row">
             {{"<!-- section title -->" | safeHTML}}
@@ -13,37 +13,130 @@
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-            The price for the whole Term is £15 for OUIS members and £25 for non OUIS member. Italian classes run during term time, until Week 8. Classes are offered for four different levels. Each course will include 7 or 8 lessons of 90 minutes.
-
-            {{ range .Site.Data.pricing.pricingTable }}
-            {{"<!-- single pricing table -->" | safeHTML}}
-            <div class="col-lg-3 col-md-6 col-12 text-center">
-                <div class="price-item">
-
-                    {{"<!-- plan name & value -->" | safeHTML}}
-                    <div class="price-title">
-                        <h3>{{ .title }}</h3>
-                        <p><strong class="value">{{ .price }}</strong>/ {{ .time }}</p>
-                    </div>
-
-                    {{"<!-- plan description -->" | safeHTML}}
-                    <ul>
-                        {{ range .plan }}
-                        <li>{{ .planDetails }}</li>
-                        {{ end }}
-                    </ul>
-
-                    {{"<!-- signup button -->" | safeHTML}}
-                    <a class="btn btn-transparent" href="{{ .btnURL | absURL}}">{{ .btnText }}</a>
-
-                </div>
-            </div>
-            {{"<!-- end single pricing table -->" | safeHTML}}
-            {{ end }}
         </div>
     </div>
+
+    {{ range $i,$p := .Site.Data.pricing.pricingTable }}
+    {{"<!-- single pricing table -->" | safeHTML}}
+    <div id="{{ urlize .title }}" class="class-info-container" {{if (modBool $i 2)}} style="background: var(--bgColDark)" {{ end }} >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-trailing-line text-center">
+                        <h2>{{ .title }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 text-left">
+                    <h5>At the end of the course, you will be able to</h5>
+                    <ul>
+                    {{ range .objectives }}
+                        <li>{{ .item }}</li>
+                    {{ end }}
+                    </ul>
+
+                    {{ $numTeachers := len .teachers}}
+                    {{ if eq $numTeachers 1}}
+                        <h2 class=text-center>Teacher</h2>
+                    {{ else }}
+                        <h2 class=text-center>Teachers</h2>
+                    {{ end }}                    
+                    <div class="row justify-content-center">
+                        {{ range .teachers }}
+                        <div class="col-4 text-center">
+                            <div class="media-wrapper">
+                                <div class="content">
+                                    <figure>
+                                        <img class="rounded-circle img-fluid pt-2" src="{{ .image }}">
+                                        
+                                        <figcaption>
+                                            <h5 class="font-weight-bold">
+                                                {{ .name }}
+                                            </h5>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12 text-left info-block">
+                    <h2>Info</h2>
+                    {{ range .details }}
+                    <div class="con-info clearfix">
+                        <i class="{{ .icon }}"></i>
+                        <span>{{ .info }}</span>
+                    </div>
+                    {{ end }}
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center" style="margin-top: 70px">
+                            <a href="#sign-up" class="btn btn-transparent">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <div class="border-simple"></div> -->
+    {{"<!-- end single pricing table -->" | safeHTML}}
+    {{ end }}
 </section>
-{{"<!-- /blog -->" | safeHTML}}
+
+
+<section id="sign-up" class="section">
+    <div class="container">
+        <div class="row">
+            {{"<!-- Contact Details -->" | safeHTML}}
+            <div class="contact-info col-lg-6">
+                {{ with .Site.Data.pricing.contact }}<h3>{{ . }}</h3> {{ end }}
+                {{ with .Site.Data.pricing.contactDetails }} <p> {{ . }} </p> {{ end }}
+            </div>
+
+            {{"<!-- Contact Form -->" | safeHTML}}
+            <div class="col-lg-6">
+                <form id="contact-form" class="form-meghna" method="post" action="https://getform.io/f/0a729ed2-f132-4bfa-a898-2d7bdc3cb658" role="form">
+
+                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Class level" class="form-control" name="subject" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                    </div>
+
+                    <div id="mail-success" class="success">
+                        Thank you. Your e-mail was sent successfully :)
+                    </div>
+
+                    <div id="mail-fail" class="error">
+                        Sorry, something went wrong. Try again later :(
+                    </div>
+
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Send Mail">
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
 
 {{ end }}
 
