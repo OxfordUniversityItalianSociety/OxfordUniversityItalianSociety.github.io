@@ -9,7 +9,7 @@ place : Cohen Quad
 title : Elsa Fornero
 ---
 
-Our second seaker for this term is former Minister Elsa Fornero.
+Our second speaker for this term is former Minister Elsa Fornero.
 
 Whether you are a huge fan or whether she prevented your parents and grandparents from retiring, it will be a great chance to ask a world leading expert about the current Italian and European political and economic situation.
 
