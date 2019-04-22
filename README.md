@@ -57,24 +57,15 @@ We are delighted to be hosting ...
 ```
 
 The section beginning and ending with `---` identifies a block containing a bunch of variables, and this followed by a human-readable description of the event. Here's what each variable means/does:
-	- `types: tag1 tag2` ...
-	this assigns some tags to each event, so that it can be recovered easily using the filter buttons in the main page (clicking on a filter only shows events with that tag). For now the tags available are `speaker`, `cinema` and `social` (although more can be added by changing the corresponding `.yml` file in `/data/`). Any subset of these tags can be added to types (just interval them with a simple space), and if an event has more tags, it will be identified by more filters. Simple as that.
-	- `image: path-to-image`
-	this assigns a main image to the event. The image file should be put in the folder `/images/events/`.
-	- `week: number`
-	the term week number the event is held in.
-	- `old: false/true`
-	whether the event is old (`true`), and hence should be shown only on the events page, or if it is instead new (`false`) and should be shown in the main page. When an event turns old, please modify the corresponding file.
-	- `startDate : YYYY-MM-DDTHH:MM:SSZ`
-	date and time of the beginning of the event. Notice __the obnoxious format needs to be preserved__! It is used internally by Hugo to handle it properly as an actual date and to show it nicely. If you mess up with it, you'll probably start seeing weird numbers instead of the correct year, for example.
-	- `endDate : YYYY-MM-DDTHH:MM:SSZ`
-	same as above, but for the end of the event.
-	- `place : wherever`
-	info on the place of the event. This is going to be read as is by humans, so you can write anything meaningful, really.
-	- `title : fancy title`
-	a title for the event. Same as above.
-	- `whatever comes after the "---"`
-	a description of the event: this will also be shown as is, in the corresponding event page.
+- `types: tag1 tag2 ...` This assigns some tags to each event, so that it can be recovered easily using the filter buttons in the main page (clicking on a filter only shows events with that tag). For now the tags available are `speaker`, `cinema` and `social` (although more can be added by changing the corresponding `.yml` file in `/data/`). Any subset of these tags can be added to types (just interval them with a simple space), and if an event has more tags, it will be identified by more filters. Simple as that.
+- `image: path-to-image` This assigns a main image to the event. The image file should be put in the folder `/images/events/`.
+- `week: number` The term week number the event is held in.
+- `old: false/true` Whether the event is old (`true`), and hence should be shown only on the events page, or if it is instead new (`false`) and should be shown in the main page. When an event turns old, please modify the corresponding file.
+- `startDate : YYYY-MM-DDTHH:MM:SSZ` Date and time of the beginning of the event. Notice __the obnoxious format needs to be preserved__! It is used internally by Hugo to handle it properly as an actual date and to show it nicely. If you mess up with it, you'll probably start seeing weird numbers instead of the correct year, for example.
+- `endDate : YYYY-MM-DDTHH:MM:SSZ` Same as above, but for the end of the event.
+- `place : wherever` Info on the place of the event. This is going to be read as is by humans, so you can write anything meaningful, really.
+- `title : fancy title` A title for the event. Same as above.
+- `whatever comes after the "---"` A description of the event: this will also be shown as is, in the corresponding event page.
 
 That should be it regarding events. You can add as many as you want: all those identified as old will be shown in the `/events/` page, while all those identified as not old will be shown in the main page. In both case, they will be nicely organised in a grid. I've tried to automate the process as much as possible: for example, the images will be automatically centered and resized to preserve a fixed aspect-ratio, and the small dark grey box will be resized to accomodate for longer titles. Certain things, however, can't be automated: if you put an image where the relevant bit is on the top right corner, you'll se nothing relevant; if the title is ridiculously long, it will spill over the maximum size of the element, and it will look bad. Check every time you modify things to make sure the website still looks nice.
 
@@ -82,24 +73,24 @@ That should be it regarding events. You can add as many as you want: all those i
 ### /data/
 Here is where you need to go to modify pretty much everything else. You'll see a bunch of `.yml` files in here, all referring to specific sections in the website: for example, `contact.yml` contains info on how to fill the "get in touch" section at the bottom of the main page. There're too many to describe them all in detail, but it should be straightforward to reverse-engineer what is modified by changing what: the names should help, for once, and make sure you're always checking http://localhost:1313 when you re-write something, so that you can look for changes. As an example, let's take `about.yml`, which dictates what goes in the "About Us" section in the main page
 ```yaml
-	enable : true
-	heading : About
-	headingSpan : Us
-	aboutItem : 
-	- icon : tf-ion-ios-wineglass
-	  title : Events
-	  content : "Every term we commit to organise a number of events to keep our members engaged. These range from social aperitivos to talks with 	invited speakers: keep an eye on our term card to know what's up next"	
-	  url: events	
-	
-	- icon : tf-ion-ios-book
-	  title : Teaching
-	  content : "To promote Italian culture, we offer a variety of language courses in Italian at very attractive prices for our members. The classes 	are open to all levels: just pick the one you're most confortable with"	
-	  url: classes	
-	
-	- icon : tf-ion-ios-people
-	  title : Community
-	  content : "Our society is composed by an ever-growing community of Oxford students, alumni, and non-, all united by their love for the Italian 	culture. The Italian Society is the best way to keep in touch with them"
-	  url: committee
+enable : true
+heading : About
+headingSpan : Us
+aboutItem : 
+- icon : tf-ion-ios-wineglass
+  title : Events
+  content : "Every term we commit to organise a number of events to keep our members engaged. These range from social aperitivos to talks with 	invited speakers: keep an eye on our term card to know what's up next"	
+  url: events	
+
+- icon : tf-ion-ios-book
+  title : Teaching
+  content : "To promote Italian culture, we offer a variety of language courses in Italian at very attractive prices for our members. The classes 	are open to all levels: just pick the one you're most confortable with"	
+  url: classes	
+
+- icon : tf-ion-ios-people
+  title : Community
+  content : "Our society is composed by an ever-growing community of Oxford students, alumni, and non-, all united by their love for the Italian 	culture. The Italian Society is the best way to keep in touch with them"
+  url: committee
 ```
 again, a bunch of variables with some values assigned to them. `enable` for example, decides whether the section is shown at all, `heading` and `headingSpan` define the title and the colored part of it appearing at the top of the section, respectively: change these and you'll see the site change accordingly in http://localhost:1313. Something worth pointing out are lists: these are identified by putting a `-` before an element. For example, `aboutItem` is a list containing three elements. Each element has the fields `icon`, `title`, `content`, and `url`. This reflects the fact that there are three dark boxes in the About Us section, titled respectively Events, Teaching and Community, as reflected by the `title` field. Guess what: if you were to add another element, with the correct fields, a new box would appear automatically in the website. This to show that the website has some flexibility, provided you respect the original format. Similar ideas apply to, for example, the language classes offered, the membership plans offered, the members of the committee: it's up to you to fish the correct file containing that info and modify it accordingly, but with what you've learnt so far it shouldn't be too hard.
 
@@ -111,9 +102,9 @@ This contains the last few parameters, slightly higher-level than the rest (like
 
 ## Deploying the website
 
-You've made your changes, you've checked them locally on http://localhost:1313, you're satisfied with the way they look, and now you want to show the whole world the updated info on the website: it's time to deploy your changes online. This is done in a few steps.
+You've made your changes, you've checked them locally on http://localhost:1313, you're satisfied with the way they look, and now you want to show the whole world the updated info on the website: it's time to deploy your changes online. This is done in two steps.
 
-- Committing: First of all, you want your changes to be stored on the online repository. This step is not necessary, but since you've made some changes, it makes sense to store them somewhere safer than your local machine (and somewhere that's easily accessible to everyone in the future, too). This is what gitHub is for: you can create a "screenshot" of how your files look like at this point in time by writing the following commands on terminal:
+1- Committing: First of all, you want your changes to be stored on the online repository. This step is not necessary, but since you've made some changes, it makes sense to store them somewhere safer than your local machine (and somewhere that's easily accessible to everyone in the future, too). This is what gitHub is for: you can create a "screenshot" of how your files look like at this point in time by writing the following commands on terminal:
 ```shell
 git add .
 ```
@@ -130,7 +121,7 @@ This saves (pushes) the version of the repository online, so that it's stored so
 These commands are not necessary, in the sense that you can still deploy an updated website even without going through this), but it's a very clever thing to do: whoever'll take care of the website in the future will be grateful for this.
 
 
-- Deploying: This is the big deal. This gets things live. It's not like there's no turning back (remember what we said about reverting to a previous commit?), but still: your mistakes will be shown. So double-check everything, and once you're sure, write on the terminal
+2- Deploying: This is the big deal. This gets things live. It's not like there's no turning back (remember what we said about reverting to a previous commit?), but still: your mistakes will be shown. So double-check everything, and once you're sure, write on the terminal
 ```shell
 ./deploy.sh
 ```
@@ -138,6 +129,7 @@ Simple enough. This is a shell command that runs a series of actions for you aut
 - It runs Hugo to create the actual website. The necessary data is then saved in the `/public/` folder
 - The content in `/public/` is added, committed and pushed to _another_ repository, whose content is looked at by the host to show the actual website online, and which should never be touched in any other way.
 Changes might take a while to actually become live on https://oxforditaliansociety.org/, so don't panic if you don't see any change straight away, and give it a few hours.
+
 
 Congratulations! You've made the first few changes to the website. Kudos to that!
 
