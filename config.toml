@@ -119,3 +119,11 @@ custom_css = ["css/custom.css"]
         icon = "tf-ion-social-twitter"
         url = "https://twitter.com/OUItaSoc"
 
+    # 404 Page
+    [params.notfound]
+    enable = true
+    bgImage = "images/404/pizza.jpg"
+    heading = "404 Not Found"
+    content= "Seems like you got lost somewhere strange. But we've got you covered: have a virtual pizza on us!"
+    btn = true
+    btnText="Back to Website"
