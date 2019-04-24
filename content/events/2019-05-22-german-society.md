@@ -1,12 +1,12 @@
 ---
 types : social
 image : images/events/germanSociety.jpg
-week : 3
+week : 4
 old: false
-startDate : 2019-05-14T19:30:15Z
-endDate : 2019-05-14T19:30:15Z
+startDate : 2019-05-22T19:30:15Z
+endDate : 2019-05-22T19:30:15Z
 place : Trinity College
-title : Joint dinner with OUGS
+title : Joint formal with OUGS
 ---
 
 TBD

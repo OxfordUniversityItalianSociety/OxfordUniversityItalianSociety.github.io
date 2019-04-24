@@ -4,7 +4,7 @@ image : images/events/aperitivo.jpg
 week : 1
 old: false
 startDate : 2019-04-28T18:00:00Z
-endDate : 2019-04-28T20:00:00Z
+endDate : 2019-04-28T21:00:00Z
 place : New College
 title : Welcome Aperitivo
 ---

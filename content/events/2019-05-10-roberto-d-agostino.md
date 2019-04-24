@@ -3,8 +3,8 @@ types : speaker
 image : images/events/roberto-d-agostino.jpg
 week : 2
 old: false
-startDate : 2019-05-10T17:30:00Z
-endDate : 2019-05-10T18:30:00Z
+startDate : 2019-05-10T17:15:00Z
+endDate : 2019-05-10T19:00:00Z
 place : New College, LR6
 title : Roberto d'Agostino
 ---
