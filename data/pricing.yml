@@ -12,15 +12,15 @@ pricingTable :
       - item : Introduce yourself and others and ask and answer questions about personal details such as where you live, people you know and things you have
       - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
     teachers:
-      - name : Davis
-        image : /images/teachers/Davis.jpg
+      - name : Ettore
+        image : /images/teachers/Ettore.jpg
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Thursday, 7:00pm - 8:30pm"
+        info : "Monday, 7:00pm - 8:30pm"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
@@ -44,7 +44,7 @@ pricingTable :
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Thursday, 6:30pm - 8:00pm"
+        info : "Wednesday, 5:30pm - 7:00pm"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
