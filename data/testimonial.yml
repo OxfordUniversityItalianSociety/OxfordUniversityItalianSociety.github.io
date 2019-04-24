@@ -1,6 +1,8 @@
 enable : true
 heading: Our
 headingSpan: Sponsors
+heading2: Become
+headingSpan2: a Sponsor
 bgImage : images/backgrounds/handshake.jpeg
 description: "Special thanks to our sponsors for contributing to make this all happen"
 becomeSponsorURL : '/#contact-us'
@@ -14,3 +16,44 @@ testimonialItem :
     
   - name : Pizza Pilgrims
     image : images/sponsors/pizzaPilgrims.png
+
+
+longDescription : Interested in sponsoring the Italian Society? We are extremely grateful to our sponsors, who allow the Society to organise inspiring talks and cultural events which bring the Italian community of Oxford together. Your money will go towards lowering our membership fees, improving the quality of our Italian lessons, and widening the range of events we can offer to our members. Here are our proposals!
+sponsorshipPlans:
+  - title : Gold Sponsorship
+    img : ../images/sponsors/gold.png
+    color : '#f7ca60'
+    duration : 1 year
+    price : 1000
+    perks : 
+      - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
+      - item : Allow your company to advertise services and/or work placements and events on the Society's Facebook page and group
+      - item : Organise exclusive career events together with your company's recruitment team targeted at Italian, Italian-speaking and Italian-learning students (up to once every term)
+      - item : Allow a small delegation from your company to take part in any of the Society's events free of charge
+
+  - title : Silver Sponsorship
+    img : ../images/sponsors/silver.png
+    color : '#cfd2d6'
+    duration : 1 year
+    price : 750
+    perks : 
+      - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
+      - item : Allow your company to advertise services and/or work placements and events on the Society's Facebook page and group
+
+  - title : Bronze Sponsorship
+    img : ../images/sponsors/bronze.png
+    color : '#b07d53'
+    duration : 1 year
+    price : 350
+    perks : 
+      - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
+
+  - title : Other Sponsorships
+    img : 
+    color : 
+    duration : 
+    price : 
+    perks : 
+      - item : If you own a restaurant or a shop, we are happy to discuss discounts for members in exchange for publicity and use of your location for our events!
+
+contact : Sponsoring our Society would be a unique opportunity in terms of publicity and recruitment, as you would have access to brilliant Italian-speaking and Italian-learning students from the University of Oxford, who study a broad range of subjects. To find out more, please contact our Treasurer at italy.society@studentclubs.ox.ac.uk. 

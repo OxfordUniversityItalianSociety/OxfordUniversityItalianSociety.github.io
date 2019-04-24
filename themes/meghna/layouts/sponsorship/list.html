@@ -1,0 +1,120 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+{{"<!-- Start Classes Section -->" | safeHTML}}
+<section id="sponsor" class="section">
+    <div class="container">
+        <div class="row">
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.testimonial.heading2 }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.testimonial.headingSpan2 }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+                <h5 class="text-center">{{ with .Site.Data.testimonial.longDescription }} {{ . }} {{ end }}</h5>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+        </div>
+    </div>
+
+    {{ range $i,$p := .Site.Data.testimonial.sponsorshipPlans }}
+    {{"<!-- single pricing table -->" | safeHTML}}
+    <div id="{{ urlize .title }}" class="class-info-container" {{if (modBool $i 2)}} style="background: var(--bgColDark)" {{ end }} >
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h2 style="color: {{ .color }}">{{ .title }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <div class="media-wrapper">
+                        <div class="content">
+                            <figure>
+                                <img class="img-fluid pt-2" src="{{ .img }}">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12 text-left info-block">
+                    <h5>If you purchase this plan, the Society will:</h5>
+                    <ul>
+                    {{ range .perks }}
+                        <li>{{ .item }}</li>
+                    {{ end }}
+                    </ul>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-12 text-left">
+                    <div class="row justify-content-center">
+                        <div class="col-12 text-center" style="margin-top: 70px">
+                            <a href="#sign-up" class="btn btn-transparent">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <div class="border-simple"></div> -->
+    {{"<!-- end single pricing table -->" | safeHTML}}
+    {{ end }}
+</section>
+
+
+<section id="sign-up" class="section">
+    <div class="container">
+        <div class="row">
+            {{"<!-- Contact Details -->" | safeHTML}}
+            <div class="contact-info col-lg-6">
+                {{ with .Site.Data.pricing.contact }}<h3>{{ . }}</h3> {{ end }}
+                {{ with .Site.Data.pricing.contactDetails }} <p> {{ . }} </p> {{ end }}
+            </div>
+
+            {{"<!-- Contact Form -->" | safeHTML}}
+            <div class="col-lg-6">
+                <form id="contact-form" class="form-meghna" method="post" action="https://getform.io/f/0a729ed2-f132-4bfa-a898-2d7bdc3cb658" role="form">
+
+                    <input name="e-mail" type="text" id="e-mail" autocomplete="off">
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Class level" class="form-control" name="subject" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                    </div>
+
+                    <div id="mail-success" class="success">
+                        Thank you. Your e-mail was sent successfully :)
+                    </div>
+
+                    <div id="mail-fail" class="error">
+                        Sorry, something went wrong. Try again later :(
+                    </div>
+
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Send Mail">
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}
+
