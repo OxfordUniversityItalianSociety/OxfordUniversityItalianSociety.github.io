@@ -13,7 +13,7 @@ pricingTable :
       - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
     teachers:
       - name : Ettore
-        image : /images/teachers/Ettore.jpg
+        image : /images/teachers/Ettore.png
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
