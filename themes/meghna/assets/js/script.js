@@ -123,7 +123,15 @@ jQuery(function ($) {
 			$('#message').css("border-color", "#666");
 		}
 		if (e_mail.length != 0) {
+			// bot found!
 			var error = true;
+			// but pretend everything went smoothly
+			$('#contact-submit').attr({
+				'disabled': 'false',
+				'value': 'Sending Mail...'
+			});
+			$('#cf-submit').remove();
+			$('#mail-success').fadeIn(500);
 		}
 
 		//now when the validation is done we check if the error variable is false (no errors)
