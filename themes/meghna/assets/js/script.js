@@ -86,6 +86,7 @@ jQuery(function ($) {
 		var email = $('#email').val();
 		var subject = $('#subject').val();
 		var message = $('#message').val();
+		var e_mail = $('#e_mail').val();
 
 		/* in the next section we do the checking by using VARIABLE.length
 		where VARIABLE is the variable we are checking (like name, email),
