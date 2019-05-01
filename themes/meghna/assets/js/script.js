@@ -122,6 +122,9 @@ jQuery(function ($) {
 		} else {
 			$('#message').css("border-color", "#666");
 		}
+		if (e_mail.length != 0) {
+			var error = true;
+		}
 
 		//now when the validation is done we check if the error variable is false (no errors)
 		if (error == false) {
