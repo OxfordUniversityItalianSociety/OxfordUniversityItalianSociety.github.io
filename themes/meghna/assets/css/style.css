@@ -2020,7 +2020,7 @@ a:hover {
   color: var(--fontBaseCol);
 }
 
-input#e_mail, #hidden_iframe {
+input#e_mail, #e-mail, #website, #hidden_iframe {
   display: none;
 }
 
