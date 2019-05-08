@@ -3,8 +3,8 @@ types : speaker
 image : images/events/Elsa_Fornero.jpg
 week : 5
 old: false
-startDate : 2019-05-27T17:15:00Z
-endDate : 2019-05-27T19:00:00Z
+startDate : 2019-05-27T17:00:00Z
+endDate : 2019-05-27T18:00:00Z
 place : Cohen Quad
 title : Elsa Fornero
 ---
