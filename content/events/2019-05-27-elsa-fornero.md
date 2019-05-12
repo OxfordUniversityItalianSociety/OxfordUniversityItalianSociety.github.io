@@ -9,11 +9,15 @@ place : Cohen Quad
 title : Elsa Fornero
 ---
 
-Our second speaker for this term is former Minister Elsa Fornero.
+OUIS is delighted to be welcoming former Minister, Professor Elsa Fornero.
 
-Whether you are a huge fan or whether she prevented your parents and grandparents from retiring, it will be a great chance to ask a world leading expert about the current Italian and European political and economic situation.
+She will address the audience discussing her incredibly influential role in government as well as her thoughts, expectations and hopes for the future. Her address will be followed by a Q&A session.
 
-As someone who has been in a central figure in Italian politics for almost a decade, we are lucky to have her address our members.
+The event will be entirely held in English.
 
-Dinner with Professor Fornero will also be available via ballot.
+This will be a great chance to ask a world leading expert about the current Italian and European political and economic situation.
+
+This event is free for OUIS members and shall cost £3 on entry for non-members. Membership may, as always, be purchased on the door.
+
+Dinner with Professor Fornero - formal hall at New College - will also be available via ballot. To ballot please fill out [this form](https://forms.gle/4WyYrbUAToxJL5zz6).
 
