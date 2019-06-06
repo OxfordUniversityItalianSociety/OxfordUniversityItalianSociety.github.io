@@ -11,21 +11,21 @@
     
     
     <item>
-      <title>Closing Aperitivo</title>
-      <link>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</guid>
-      <description>TBD</description>
-    </item>
-    
-    <item>
       <title>Elsa Fornero</title>
       <link>https://oxforduniversityitaliansociety.github.io/events/2019-05-27-elsa-fornero/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oxforduniversityitaliansociety.github.io/events/2019-05-27-elsa-fornero/</guid>
       <description>OUIS is delighted to be welcoming former Minister, Professor Elsa Fornero.</description>
+    </item>
+    
+    <item>
+      <title>End of Term Aperitivo</title>
+      <link>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oxforduniversityitaliansociety.github.io/events/2019-06-15-goodbye-aperitivo/</guid>
+      <description>Whether it’s relaxing at the end of term, taking a break from revision or simply seeking good food and aperol, there is no better place to be at the start of the last week!</description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://oxforduniversityitaliansociety.github.io/events/2019-06-07-wine-tasting/</guid>
-      <description>TBD</description>
+      <description>Join us and our friends from the Wine Tasting Society as we embark on a journey.</description>
     </item>
     
   </channel>
