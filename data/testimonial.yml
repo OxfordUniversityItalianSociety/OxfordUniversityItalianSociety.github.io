@@ -5,7 +5,7 @@ heading2: Become a
 headingSpan2: Sponsor
 bgImage : images/backgrounds/handshake.jpeg
 description: "Special thanks to our sponsors for contributing to make this all happen"
-becomeSponsorURL : '/#contact-us'
+becomeSponsorURL : '/sponsorship'
 donateURL : https://www.campaign.ox.ac.uk/page.aspx?pid=2698&id=8fdfa0de-90cc-4b06-9f3e-e24205623161
 testimonialItem :
   - name : Pizza Pilgrims
@@ -21,7 +21,7 @@ sponsorshipPlans:
     img : ../images/sponsors/gold.png
     color : '#f7ca60'
     duration : 1 year
-    price : 1000
+    price : £1000
     perks : 
       - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
       - item : Allow your company to advertise services and/or work placements and events on the Society's Facebook page and group
@@ -32,7 +32,7 @@ sponsorshipPlans:
     img : ../images/sponsors/silver.png
     color : '#cfd2d6'
     duration : 1 year
-    price : 750
+    price : £750
     perks : 
       - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
       - item : Allow your company to advertise services and/or work placements and events on the Society's Facebook page and group
@@ -41,7 +41,7 @@ sponsorshipPlans:
     img : ../images/sponsors/bronze.png
     color : '#b07d53'
     duration : 1 year
-    price : 350
+    price : £350
     perks : 
       - item : Openly recognise your company as a sponsor, and allow your company's logo to appear on the Society's website and Facebook page and group
 
