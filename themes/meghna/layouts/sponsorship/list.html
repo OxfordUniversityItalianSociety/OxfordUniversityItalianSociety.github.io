@@ -11,7 +11,7 @@
                     <h2>{{ with .Site.Data.testimonial.heading2 }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.testimonial.headingSpan2 }} {{ . }} {{ end }}</span></h2>
                     <div class="border-meghna"></div>
                 </div>
-                <h5 class="text-center">{{ with .Site.Data.testimonial.longDescription }} {{ . }} {{ end }}</h5>
+                <!-- <h5 class="text-center">{{ with .Site.Data.testimonial.longDescription }} {{ . }} {{ end }}</h5> -->
             </div>
             {{"<!-- /section title -->" | safeHTML}}
         </div>
@@ -40,21 +40,24 @@
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-12 text-left info-block">
-                    <h5>If you purchase this plan, the Society will:</h5>
+                    <h5>If you purchase this package, the Society will:</h5>
                     <ul>
                     {{ range .perks }}
                         <li>{{ .item }}</li>
                     {{ end }}
                     </ul>
+                    <div class="col-12 text-center" style="margin-top: 70px">
+                        <a href="#sign-up" class="btn btn-transparent">Become a Sponsor</a>
+                    </div>
                 </div>
                 
-                <div class="col-lg-6 col-md-6 col-12 text-left">
+<!--                 <div class="col-lg-6 col-md-6 col-12 text-left">
                     <div class="row justify-content-center">
                         <div class="col-12 text-center" style="margin-top: 70px">
                             <a href="#sign-up" class="btn btn-transparent">Sign Up</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -69,9 +72,19 @@
         <div class="row">
             {{"<!-- Contact Details -->" | safeHTML}}
             <div class="contact-info col-lg-6">
-                {{ with .Site.Data.pricing.contact }}<h3>{{ . }}</h3> {{ end }}
-                {{ with .Site.Data.pricing.contactDetails }} <p> {{ . }} </p> {{ end }}
+                {{ with .Site.Data.testimonial.contact }}<h3>{{ . }}</h3> {{ end }}
+                {{ range .Site.Data.testimonial.contactDetails }}
+                    <p> {{ .item }} </p>
+                {{ end }}
+
+                {{ range .Site.Data.testimonial.mailAddress }}
+                <div class="con-info clearfix">
+                    <i class="{{ .icon }}"></i>
+                    <span>{{ .info }}</span>
+                </div>
+                {{ end }}
             </div>
+
 
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="col-lg-6">
@@ -88,7 +101,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Class level" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="Sponsorship Plan" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
