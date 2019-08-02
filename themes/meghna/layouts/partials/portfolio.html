@@ -12,40 +12,64 @@
                 {{"<!-- /section title -->" | safeHTML}}
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="portfolio-filter">
-                    <button type="button" data-filter="all">All</button>
-                    {{ range .Site.Data.portfolio.filterList }}
-                    <button type="button" data-filter=".{{ .filterType }}">{{ .filterTitle }}</button>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-        <div class="row portfolio-items-wrapper">
-            {{"<!-- portfolio item -->" | safeHTML}}
-            {{ $events:= where ( where .Data.Pages "Section" "events" ) ".Params.old" false }}
-            {{ range ($events.ByParam "startDate")  }}
-            <div class="mix col-lg-4 {{ .Params.types }}">
-                <div class="portfolio-block" onClick="window.open( '{{ .Permalink | absURL }}','_top' ); return false;">
-                    <img class="img-fluid" src="{{ .Params.image | absURL}}" alt="work-image">
-                    <div class="centeredText">
-                        <h3>{{ .Params.title }}</h3> <h5>W{{ .Params.week }}: {{ dateFormat "Mon, 02 Jan" .Params.startDate }}</h5>
-                        <ul class= "hidden" type="disc"> 
-                            <li>Time: {{ dateFormat "15:04" .Params.startDate }} - {{ dateFormat "15:04" .Params.endDate }}</li>
-                            <li>Place: {{ .Params.place }} </li>
-                        </ul>
+        <!-- Recover a list of new events -->
+        {{ $events:= where ( where .Data.Pages "Section" "events" ) ".Params.old" false }}
+        <!-- if the list isn't empty, show it -->
+        {{ if ( gt (len $events) 0 ) }}                 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-filter">
+                        <button type="button" data-filter="all">All</button>
+                        {{ range .Site.Data.portfolio.filterList }}
+                        <button type="button" data-filter=".{{ .filterType }}">{{ .filterTitle }}</button>
+                        {{ end }}
                     </div>
                 </div>
             </div>
-            {{ end }}
-        </div>
+            <div class="row portfolio-items-wrapper">
+                {{"<!-- portfolio item -->" | safeHTML}}
+                {{ range ($events.ByParam "startDate")  }}
+                <div class="mix col-lg-4 {{ .Params.types }}">
+                    <div class="portfolio-block" onClick="window.open( '{{ .Permalink | absURL }}','_top' ); return false;">
+                        <img class="img-fluid" src="{{ .Params.image | absURL}}" alt="work-image">
+                        <div class="centeredText">
+                            <h3>{{ .Params.title }}</h3> <h5>W{{ .Params.week }}: {{ dateFormat "Mon, 02 Jan" .Params.startDate }}</h5>
+                            <ul class= "hidden" type="disc"> 
+                                <li>Time: {{ dateFormat "15:04" .Params.startDate }} - {{ dateFormat "15:04" .Params.endDate }}</li>
+                                <li>Place: {{ .Params.place }} </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        <!-- otherwise show the "work in progress" banner -->
+        {{ else }}
+            <div class="row">
+                <div class="col-lg-12 title text-center">
+                   {{ with .Site.Data.portfolio.noEventsBanner}} <h2>{{ . }}</h2> {{ end }}
+                   {{ with .Site.Data.portfolio.noEventsDescription }} <h3>{{ . }}</h3> {{ end }}
+                </div>
+            </div>
 
-<!--         <div class="row">
+            <div class="row justify-content-center">
+                <div class="col-4 text-center">
+                    <div class="media-wrapper">
+                        <div class="content">
+                            <figure>
+                                <img class="img-fluid" src="{{ .Site.Data.portfolio.WIPimage | absURL}}" alt="WIP-image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+
+        <div class="row">
             <div class="all-events text-center col-lg-12">
                 <a class="btn btn-main" href="/events">{{ i18n "seePastEvents" }}</a>
             </div>
-        </div> -->
+        </div>
 
     </div>
 </section>

@@ -51,8 +51,17 @@ jQuery(function ($) {
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-	var mixer = mixitup('.portfolio-items-wrapper');
-
+	// var mixer = mixitup('.portfolio-items-wrapper');
+	var mixerContainerEl = document.querySelector('.portfolio-items-wrapper');
+	if (mixerContainerEl) {
+    var mixer = mixitup('.portfolio-items-wrapper');
+  	$("#testimonials").slick({
+      	infinite: true,
+        arrows: false,
+  	    autoplay: true,
+      	autoplaySpeed: 4000
+  	});
+  };
 	/* ========================================================================= */
 	/*	Testimonial Carousel
 	/* =========================================================================  */

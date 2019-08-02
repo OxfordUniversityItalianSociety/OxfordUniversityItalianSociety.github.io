@@ -2,7 +2,7 @@
 types : social
 image : images/events/wine.jpg
 week : 6
-old: false
+old: true
 startDate : 2019-06-07T20:00:00Z
 endDate : 2019-06-07T21:20:00Z
 place : Cohen Quad

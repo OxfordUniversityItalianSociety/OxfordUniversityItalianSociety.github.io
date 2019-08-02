@@ -2,7 +2,7 @@
 types : social
 image : images/events/aperitivo.jpg
 week : 8
-old: false
+old: true
 startDate : 2019-06-16T18:00:00Z
 endDate : 2019-06-16T20:00:00Z
 place : New College

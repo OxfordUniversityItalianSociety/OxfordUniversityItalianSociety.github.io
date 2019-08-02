@@ -11,3 +11,7 @@ filterList :
   - filterType : social
     filterTitle : Social
 
+WIPimage : images/events/workInProgress.png
+
+noEventsBanner: Work in Progress
+noEventsDescription: The term is now over, and we're taking this time to cook up a plan for the upcoming events. Stay tuned for updates!

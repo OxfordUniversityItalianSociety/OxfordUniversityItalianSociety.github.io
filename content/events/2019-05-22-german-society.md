@@ -2,7 +2,7 @@
 types : social
 image : images/events/germanSociety.jpg
 week : 4
-old: false
+old: true
 startDate : 2019-05-22T19:00:15Z
 endDate : 2019-05-22T21:00:15Z
 place : Trinity College
