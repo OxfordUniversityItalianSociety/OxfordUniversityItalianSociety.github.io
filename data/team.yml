@@ -80,19 +80,19 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
       
-  - image : images/team/elenaCasaleEventssec.png
-    name : Elena Casale
-    designation : Events Secretary
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/elena.chiara.casale"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
+  # - image : images/team/elenaCasaleEventssec.png
+  #   name : Elena Casale
+  #   designation : Events Secretary
+  #   description : ""
+  #   socialIcon :
+  #     - icon : tf-ion-social-facebook
+  #       url : "https://www.facebook.com/elena.chiara.casale"
+  #     # - icon : tf-ion-social-twitter
+  #     #   url : "#"
+  #     # - icon : tf-ion-social-linkedin
+  #     #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
+  #     # - icon : tf-ion-social-dribbble-outline
+  #     #   url : "#"
       
   - image : images/team/EttoreCondorelliTeachingCoordinator.png
     name : Ettore Condorelli
@@ -122,6 +122,19 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
+  - image : images/team/GiovanniRaiteriSponsorship.jpg
+    name : Giovanni Raiteri
+    designation : Sponsorship Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/giovanni.raiteri.1"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      # - icon : tf-ion-social-linkedin
+      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
 
   - image : images/team/emmaBaldassariCatering.png
     name : Emma Baldassari
@@ -137,19 +150,19 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/camillaHurstCatering.png
-    name : Camilla Hurst
-    designation : Catering
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/profile.php?id=100004838595541"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
+  # - image : images/team/camillaHurstCatering.png
+  #   name : Camilla Hurst
+  #   designation : Catering
+  #   description : ""
+  #   socialIcon :
+  #     - icon : tf-ion-social-facebook
+  #       url : "https://www.facebook.com/profile.php?id=100004838595541"
+  #     # - icon : tf-ion-social-twitter
+  #     #   url : "#"
+  #     # - icon : tf-ion-social-linkedin
+  #     #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
+  #     # - icon : tf-ion-social-dribbble-outline
+  #     #   url : "#"
       
   - image : images/team/pieroAlbertiCinemaOfficer.png
     name : Piero Alberti
