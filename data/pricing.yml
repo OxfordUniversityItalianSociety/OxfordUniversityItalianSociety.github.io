@@ -12,8 +12,8 @@ pricingTable :
       - item : Introduce yourself and others and ask and answer questions about personal details such as where you live, people you know and things you have
       - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
     teachers:
-      - name : Ettore
-        image : /images/teachers/Ettore.png
+      - name : Constanța
+        image : /images/teachers/Costanta.jpg
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
@@ -24,7 +24,7 @@ pricingTable :
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
-        info : "Oxford University Student Union"
+        info : "Merton College, Americas room"
 
    
 
@@ -36,15 +36,17 @@ pricingTable :
       - item : Communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters
       - item : Describe in simple terms aspects of your background, immediate environment and matters in areas of immediate need
     teachers:
-      - name : Ettore
-        image : /images/teachers/Ettore.png
+      - name : Isaac
+        image : /images/teachers/Isaac.jpg
+      - name : Filippo
+        image : /images/teachers/Filippo.png
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Wednesday, 5:30pm - 7:00pm"
+        info : "Wednesday, 7:00pm - 8:30pm"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
@@ -62,8 +64,8 @@ pricingTable :
     teachers:
       - name : Althea
         image : /images/teachers/Althea.jpg
-      - name : Davide
-        image : /images/teachers/Davide.jpg
+      - name : Giovanni
+        image : /images/teachers/Giovanni.jpg
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"

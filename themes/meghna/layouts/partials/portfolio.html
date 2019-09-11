@@ -13,9 +13,10 @@
             </div>
         </div>
         <!-- Recover a list of new events -->
-        {{ $events:= where ( where .Data.Pages "Section" "events" ) ".Params.old" false }}
+        <!-- {{ $events:= where ( where .Data.Pages "Section" "events" ) ".Params.old" true }} -->
+        {{ $events:= where ( where .Site.Pages "Section" "events" ) ".Params.old" false }}
         <!-- if the list isn't empty, show it -->
-        {{ if ( gt (len $events) 0 ) }}                 
+        {{ if ( ge (len $events) 0 ) }}                 
             <div class="row">
                 <div class="col-lg-12">
                     <div class="portfolio-filter">
