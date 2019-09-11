@@ -3,8 +3,8 @@ types : speaker
 image : images/events/carloVerdone.jpg
 week : 3
 old: false
-startDate : 2019-11-02T17:30:00Z
-endDate : 2019-11-02T18:30:00Z
+startDate : 2019-11-02T19:30:00Z
+endDate : 2019-11-02T22:30:00Z
 place : Cohen Quad
 title : Carlo Verdone
 ---

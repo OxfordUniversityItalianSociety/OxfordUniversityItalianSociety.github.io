@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/raffaeleTrombetta.jpg
 week : 5
-old: false
+old:
 startDate : 2019-11-14T16:00:00Z
 endDate : 2019-11-14T18:30:00Z
 place : TBD
