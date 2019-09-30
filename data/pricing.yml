@@ -46,7 +46,7 @@ pricingTable :
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Wednesday, 7:00pm - 8:30pm"
+        info : "Wednesday, 7:30pm - 9:00pm"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
