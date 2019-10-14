@@ -3,8 +3,8 @@ types : social
 image : images/events/aperitivo.jpg
 week : 1
 old: false
-startDate : 2019-10-15T19:45:00Z
-endDate : 2019-10-15T21:30:00Z
+startDate : 2019-10-15T20:00:00Z
+endDate : 2019-10-15T22:00:00Z
 place : Sutro Room, Trinity College
 title : Vino & Victuals
 ---
