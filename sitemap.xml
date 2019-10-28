@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -60,6 +60,14 @@
   
   <url>
     <loc>https://oxforduniversityitaliansociety.github.io/events/old/2019-06-18-cinema/</loc>
+  </url>
+  
+  <url>
+    <loc>https://oxforduniversityitaliansociety.github.io/events/2019-11-26-italian-academia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://oxforduniversityitaliansociety.github.io/events/2019-11-30-internship/</loc>
   </url>
   
   <url>
