@@ -138,7 +138,7 @@ teamMemberJunior :
 
   - image : images/team/emmaBaldassariCatering.jpg
     name : Emma Baldassari
-    designation : Catering
+    designation : Catering Officer
     description : ""
     socialIcon :
       - icon : tf-ion-social-facebook
@@ -177,6 +177,22 @@ teamMemberJunior :
       #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
+
+  - image : images/team/AlessandroBarberis.jpg
+    name : Alessandro Barberis
+    designation : Senior Member
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/alessandro.barberis01"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      # - icon : tf-ion-social-linkedin
+      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+
       
 teamMemberSenior :
   - image : images/team/team-3.jpg

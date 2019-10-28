@@ -3,8 +3,8 @@ types : speaker
 image : images/events/Andrea_Agnelli.png
 week : 5
 old: false
-startDate : 2019-11-12T16:30:00Z
-endDate : 2019-11-12T18:00:00Z
+startDate : 2019-11-12T16:00:00Z
+endDate : 2019-11-12T17:30:00Z
 place : Corpus Christi College
 title : Andrea Agnelli
 ---
