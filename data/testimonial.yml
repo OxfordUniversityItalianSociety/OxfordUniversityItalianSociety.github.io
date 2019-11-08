@@ -8,6 +8,9 @@ description: "Special thanks to our sponsors for contributing to make this all h
 becomeSponsorURL : '/sponsorship'
 donateURL : https://www.campaign.ox.ac.uk/page.aspx?pid=2698&id=8fdfa0de-90cc-4b06-9f3e-e24205623161
 testimonialItem :
+  - name : Intesa Sanpaolo
+    image : images/sponsors/IntesaSanpaolo.jpg
+
   - name : Pizza Pilgrims
     image : images/sponsors/pizzaPilgrims.png
     
