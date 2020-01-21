@@ -2,7 +2,7 @@
 types : cinema
 image : images/events/conformista.jpg
 week : 8
-old: false
+old: true
 startDate : 2019-12-03T20:00:00Z
 endDate : 2019-12-03T23:00:00Z
 place : The Queen's College, Shulman Auditorium

@@ -2,7 +2,7 @@
 types : social
 image : images/events/aperitivo.jpg
 week : 1
-old: false
+old: true
 startDate : 2019-10-15T20:00:00Z
 endDate : 2019-10-15T22:00:00Z
 place : Sutro Room, Trinity College

@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/raffaeleTrombetta.jpg
 week : 5
-old: false
+old: true
 startDate : 2019-11-14T17:00:00Z
 endDate : 2019-11-14T18:00:00Z
 place : Lincoln College

@@ -2,7 +2,7 @@
 types : social
 image : images/events/academia.jpg
 week : 7
-old: false
+old: true
 startDate : 2019-11-26T17:00:00Z
 endDate : 2019-11-26T18:30:00Z
 place : Cohen Quad

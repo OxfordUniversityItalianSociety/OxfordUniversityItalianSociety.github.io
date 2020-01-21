@@ -2,7 +2,7 @@
 types : social
 image : images/events/pizza.jpg
 week : 8
-old: false
+old: true
 startDate : 2019-12-02T18:00:00Z
 endDate : 2019-12-02T22:00:00Z
 place : BBuona, Gloucester Green (former Buongiorno & Buonasera)

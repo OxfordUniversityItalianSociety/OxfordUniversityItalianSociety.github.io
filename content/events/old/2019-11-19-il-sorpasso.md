@@ -2,7 +2,7 @@
 types : cinema
 image : images/events/sorpasso2.jpg
 week : 6
-old: false
+old: true
 startDate : 2019-11-19T20:00:00Z
 endDate : 2019-11-19T23:00:00Z
 place : The Queen's College, Shulman Auditorium
