@@ -38,8 +38,8 @@ pricingTable :
     teachers:
       - name : Ettore
         image : /images/teachers/Ettore.png
-      - name : Filippo
-        image : /images/teachers/Filippo.png
+      # - name : Filippo
+      #   image : /images/teachers/Filippo.png
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
@@ -50,7 +50,7 @@ pricingTable :
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
-        info : "Corpus Christi"
+        info : "Wadham College"
 
 
             
