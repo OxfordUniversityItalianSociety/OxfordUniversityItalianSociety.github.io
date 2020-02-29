@@ -100,6 +100,39 @@
 </div>
 {{"<!-- /committee -->" | safeHTML}}
 <div class="border-simple"></div>
+{{"<!-- Start Past Committee Section -->" | safeHTML}}
+<section id="past" class="section">
+    <div class="container">
+        <div class="row" >
+            <div class="col-lg-12">
+                {{"<!-- sub section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2>{{ with .Site.Data.team.subHeading3 }} {{ . }} {{ end }}</h2>
+                </div>
+            </div>
+            {{"<!-- /sub section title -->" | safeHTML}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-lg-12">
+                {{"<!-- member name & designation -->" | safeHTML}}
+                <ul>
+                    {{ range .Site.Data.team.teamMemberOld }}
+                    <li>
+                        <h3>TT{{ .year }} - HT{{ add .year 1 }}</h3>
+                        <h4>
+                            {{ range .committee }}
+                            <a href="{{ .url }}">{{ .name }}</a> ({{ .designation }})&emsp;
+                            {{ end }}
+                        </h4>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{"<!-- end team member -->" | safeHTML}}
+        </div>
+    </div>
+</div>
+{{"<!-- /committee -->" | safeHTML}}
+<div class="border-simple"></div>
 <!--{{"<!-- Start Senior Committee Section -->" | safeHTML}}
 <section id="senior" class="section">
     <div class="container">
@@ -107,7 +140,7 @@
             <div class="col-lg-12">
                 {{"<!-- sub section title-->" | safeHTML}}
                 <div class="title text-center">
-                    <h2>{{ with .Site.Data.team.subHeading3 }} {{ . }} {{ end }}</h2>
+                    <h2>{{ with .Site.Data.team.subHeading4 }} {{ . }} {{ end }}</h2>
                 </div>
             </div>
             {{"<!-- /sub section title -->" | safeHTML}}

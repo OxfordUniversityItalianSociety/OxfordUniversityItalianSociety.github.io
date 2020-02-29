@@ -4,18 +4,21 @@ headingSpan: Sponsors
 heading2: Become a
 headingSpan2: Sponsor
 bgImage : images/backgrounds/handshake.jpeg
-description: "Special thanks to our sponsors for contributing to make this all happen"
+description: "Special thanks to our sponsors and partners for contributing to make this all happen"
 becomeSponsorURL : '/sponsorship'
 donateURL : https://www.campaign.ox.ac.uk/page.aspx?pid=2698&id=8fdfa0de-90cc-4b06-9f3e-e24205623161
 testimonialItem :
   - name : Intesa Sanpaolo
     image : images/sponsors/IntesaSanpaolo.jpg
 
-  - name : Pizza Pilgrims
-    image : images/sponsors/pizzaPilgrims.png
+  - name : BBuona
+    image : images/sponsors/bbuona.png
     
   - name : AM Instruments
     image : images/sponsors/AMinstruments.png
+
+  - name : Pizza Pilgrims
+    image : images/sponsors/pizzaPilgrims.png
 
 
 longDescription : Interested in sponsoring the Italian Society? We are extremely grateful to our sponsors, who allow the Society to organise inspiring talks and cultural events which bring the Italian community of Oxford together. Your money will go towards lowering our membership fees, improving the quality of our Italian lessons, and widening the range of events we can offer to our members. Here are our proposals!

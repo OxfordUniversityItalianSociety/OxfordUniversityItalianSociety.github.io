@@ -9,6 +9,4 @@ place : Nuffield College, Large Lecture Room
 title : Tito Boeri
 ---
 
-TBD
-
-Please note: this is not an OUIS event, but is sponsored by Nuffield College. For further information please contact nicolo.cavalli@nuffield.ox.ac.uk and marco.molteni@pmb.ox.ac.uk. OUIS is proud to support events with distinguished Italians in Oxford.
+Unfortunately, this event has been cancelled.
