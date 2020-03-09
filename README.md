@@ -5,11 +5,11 @@ This rep contains all files necessary to build the OUIS website https://oxfordit
 If you're exploring this, you're probably somehow responsible for the management of the website. This guide should help you navigating through the maze of files so that you know what to write where for the the website to show the info you want. I'll try to keep it as low-level as possible, so that even if you don't have any previous experience in programming/website management, you should still gain enough knowledge to do what needs to be done. Nonetheless, if you _do_ have previous knowledge about gitHub, the command line, and programming at large, things will get on so much easier.
 
 The guide is (planned to be) organised as follows:
-1. A list of things to do/know to get set-up and running
-2. How to make shallow changes to the website (ie, adding events, changing committee members, ...)
-3. How to make deep changes to the website (ie, changing layout, adding pages, ...)
-4. How do websites work
-5. Why did I make this so complicated rather than just using damn wix
+1. A list of things to do/know to get set-up and running.
+2. How to make shallow changes to the website (ie, adding events, changing committee members, ...).
+3. How to make deep changes to the website (ie, changing layout, adding pages, ...).
+4. How do websites work.
+5. Why did I make this so complicated rather than just using damn wix.
 
 __Section 1__ is necessary to do anything, and most of your work should be revolving around __Section 2__. __Section 3__ starts getting tricky, and for that I would strongly advice that you knew what you're doing before attempting following anything of what's there. __Section 4__ can also be helpful in case you want to change host/expand your website's capabilities. __Section 5__ is to try and convince you that this setup makes sense and you shouldn't hate me (which will undoubtedly happen when things'll get complicated and technical down along this guide).
 
