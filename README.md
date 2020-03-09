@@ -2,7 +2,7 @@
 
 This rep contains all files necessary to build the OUIS website https://oxforditaliansociety.org/.
 
-If you're exploring this, you're probably somehow responsible for the management of the website. This guide should help you navigating through the maze of files so that you know what to write where for the the website to show the info you want. I'll try to keep it as low-level as possible, so that even if you don't have any previous experience in programming/website management, you should still gain enough knowledge to do what needs to be done. Nonetheless, if you _do_ have previous knowledge about gitHub, the command line, and programming at large, things will get oh so much easier.
+If you're exploring this, you're probably somehow responsible for the management of the website. This guide should help you navigating through the maze of files so that you know what to write where for the the website to show the info you want. I'll try to keep it as low-level as possible, so that even if you don't have any previous experience in programming/website management, you should still gain enough knowledge to do what needs to be done. Nonetheless, if you _do_ have previous knowledge about gitHub, the command line, and programming at large, things will get on so much easier.
 
 The guide is (planned to be) organised as follows:
 1. A list of things to do/know to get set-up and running
