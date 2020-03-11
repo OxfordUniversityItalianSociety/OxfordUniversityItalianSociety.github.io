@@ -9,4 +9,4 @@ place : Nuffield College, Large Lecture Room
 title : Tito Boeri
 ---
 
-Unfortunately, this event has been cancelled.
+### Event Cancelled
