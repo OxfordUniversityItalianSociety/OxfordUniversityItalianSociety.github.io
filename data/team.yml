@@ -2,169 +2,97 @@ enable : true
 heading : Our
 headingSpan : Committee
 subHeading1 : Executive Committee
-subHeading2 : Junior Committee
+subHeading2 : Extended Committee
 subHeading3 : Past Executive Committees
 subHeading4 : Senior Committee
 
 teamMemberExecutive :
-  - image : images/team/francescoGalvanettoPresident.png
-    name : Francesco Galvanetto
+  - image : images/team/giulianoFormisanoPresident.jpg
+    name : Giuliano Formisano
     designation : President
     description : ""
     socialIcon :
       - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/francesco.galvanetto"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
+        url : "https://www.facebook.com/giuliano.formisano1"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/giuformisano"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
+        url : "https://www.linkedin.com/in/giuliano-formisano-78764a138/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
-      
-  - image : images/team/FedericoDanieliSecretary.png
-    name : Federico Danieli
+
+  - image : images/team/emmaBaldassariSec.jpg
+    name : Emma Baldassari
     designation : Secretary
     description : ""
     socialIcon :
       - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/federico.danieli19"
+        url : "https://www.facebook.com/emma.baldassari.58/"
       # - icon : tf-ion-social-twitter
       #   url : "#"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
+        url : "https://www.linkedin.com/in/emma-baldassari-73963bb8?originalSubdomain=it&fbclid=IwAR3T-6PrNDakSHaxGmKQldXbpS53HdpsNEAKUYx4cE16Sn--AZlQjFDUbFU"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
-      
-  - image : images/team/EmmaBellettiTreasurer.jpg
-    name : Emma Belletti
+
+  - image : images/team/fabioSpagliardiTreasurer.jpeg
+    name : Fabio Spagliardi
     designation : Treasurer
     description : ""
     socialIcon :
       - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/emma.belletti"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
+        url : "https://www.facebook.com/fabio.spagliardi02/"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/FSpagliardi"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
+        url : "https://www.linkedin.com/in/fabiospagliardi/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
 
 
 teamMemberJunior :
-  - image : images/team/AlessandroBongioanniCommunicationOfficer.jpg
-    name : Alessandro Bongioanni
-    designation : Communication Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/alessandro.bongioanni"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-      
-  - image : images/team/EttoreCondorelliTeachingCoordinator.png
-    name : Ettore Condorelli
-    designation : Teaching Coordinator
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/ettore.condorelli.7"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/CristianTrovatoITOfficer.jpg
-    name : Cristian Trovato
-    designation : IT Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/cristian.trovato"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/GiovanniRaiteriSponsorship.jpg
-    name : Giovanni Raiteri
-    designation : Sponsorship Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/giovanni.raiteri.1"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/emmaBaldassariCatering.jpg
-    name : Emma Baldassari
-    designation : Catering Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/emma.baldassari.58"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  # - image : images/team/camillaHurstCatering.png
-  #   name : Camilla Hurst
-  #   designation : Catering
-  #   description : ""
-  #   socialIcon :
-  #     - icon : tf-ion-social-facebook
-  #       url : "https://www.facebook.com/profile.php?id=100004838595541"
-  #     # - icon : tf-ion-social-twitter
-  #     #   url : "#"
-  #     # - icon : tf-ion-social-linkedin
-  #     #   url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-  #     # - icon : tf-ion-social-dribbble-outline
-  #     #   url : "#"
-      
-  - image : images/team/pieroAlbertiCinemaOfficer.png
-    name : Piero Alberti
-    designation : Cinema Officer
-    description : ""
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/federico.danieli19"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/AlessandroBarberis.jpg
-    name : Alessandro Barberis
+  - image : images/team/francescoGalvanettoSaggio.png
+    name : Francesco Galvanetto
     designation : Senior Member
     description : ""
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/alessandro.barberis01"
+      # - icon : tf-ion-social-facebook
+      #   url : ""
       # - icon : tf-ion-social-twitter
       #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
+  - image : images/team/giorgiaRamazzottiSocial.jpg
+    name : Giorgia Ramazzotti
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/giorgia.ramazzotti.33"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "http://linkedin.com/in/giorgia-ramazzotti-87563414a"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/ceciliaCorsiniSocial.jpg
+    name : Cecilia Corsini
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : ""
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/cecilia-corsini-854459127/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
 
 
 teamMemberOld :
@@ -190,20 +118,20 @@ teamMemberOld :
         designation : treasurer
         url : "https://www.facebook.com/cristian.trovato"
 
-    
 
-      
-teamMemberSenior :
-  - image : images/team/team-3.jpg
-    name : Emma Belletti
-    designation : Treasurer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/emma.belletti"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      # - icon : tf-ion-social-linkedin
-      #   url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
+
+# 
+# teamMemberSenior :
+#   - image : images/team/team-3.jpg
+#     name : Emma Belletti
+#     designation : Treasurer
+#     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+#     socialIcon :
+#       # - icon : tf-ion-social-facebook
+#       #   url : "https://www.facebook.com/emma.belletti"
+#       # - icon : tf-ion-social-twitter
+#       #   url : "#"
+#       # - icon : tf-ion-social-linkedin
+#       #   url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
+#       # - icon : tf-ion-social-dribbble-outline
+#       #   url : "#"

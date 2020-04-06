@@ -2,7 +2,7 @@
 types : social
 image : images/events/OASpubcrawl.jpg
 week : 8
-old: false
+old: true
 startDate : 2020-03-11T20:00:00Z
 endDate : 2020-03-11T23:00:00Z
 place : Kings arms

@@ -2,14 +2,14 @@
 types : social
 image : images/events/pizza.jpg
 week : 1
-old: false
+old: true
 startDate : 2020-01-26T19:00:00Z
 endDate : 2020-01-26T22:00:00Z
 place : BBuona, Gloucester Green (former Buongiorno & Buonasera)
 title : Half-Price Aperitivo
 ---
 
-Welcome back! We start the term with our classic aperitivo. Given the HUGE success of last time, we have reduced capacity and slightly changed the format of our event. 
+Welcome back! We start the term with our classic aperitivo. Given the HUGE success of last time, we have reduced capacity and slightly changed the format of our event.
 
 At £7.90, you will be able to enjoy 4 slices of pizza as well as a Spritz of your choosing. On top of this you will be able to enjoy fabulous discounts on all drinks and snacks:
 
