@@ -52,6 +52,20 @@ teamMemberExecutive :
 
 
 teamMemberJunior :
+  - image : images/team/alessandroBarberisSaggio.jpg
+    name : Alessandro Barberis
+    designation : Senior Member
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/alessandro.barberis01"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/barberis_ale"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/alessandro-barberis-81673888/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
   - image : images/team/francescoGalvanettoSaggio.png
     name : Francesco Galvanetto
     designation : Senior Member
@@ -63,20 +77,6 @@ teamMemberJunior :
       #   url : "#"
       - icon : tf-ion-social-linkedin
         url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/giorgiaRamazzottiSocial.jpg
-    name : Giorgia Ramazzotti
-    designation : Social Media Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/giorgia.ramazzotti.33"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "http://linkedin.com/in/giorgia-ramazzotti-87563414a"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
@@ -94,6 +94,47 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
+  - image : images/team/jamesMaxiaSocial.png
+    name : James Maxia
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : "https://www.facebook.com/giorgia.ramazzotti.33"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/jamesmaxia"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/jamesmaxia/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/giorgiaRamazzottiSocial.jpg
+    name : Giorgia Ramazzotti
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/giorgia.ramazzotti.33"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "http://linkedin.com/in/giorgia-ramazzotti-87563414a"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/giovanniRaiteriSponsorship.jpg
+    name : Giovanni Raiteri
+    designation : Sponsorship Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : "https://www.facebook.com/giorgia.ramazzotti.33"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/giovanni-raiteri-41658b185/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
 
 teamMemberOld :
   - year : 2019
@@ -120,7 +161,7 @@ teamMemberOld :
 
 
 
-# 
+#
 # teamMemberSenior :
 #   - image : images/team/team-3.jpg
 #     name : Emma Belletti
