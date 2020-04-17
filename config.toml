@@ -52,7 +52,7 @@ summaryLength = 10
 [params]
 home= "Home"
 logo = "images/logoFabio.png"
-logoFull = "images/logoItaSocFull.png"
+logoFull = "images/logoFabioFull.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Oxford University Italian Society website"
