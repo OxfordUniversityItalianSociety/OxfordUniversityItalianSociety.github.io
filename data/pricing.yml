@@ -12,19 +12,21 @@ pricingTable :
       - item : Introduce yourself and others and ask and answer questions about personal details such as where you live, people you know and things you have
       - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
     teachers:
-      - name : Ettore
-        image : /images/teachers/Ettore.png
+      - name : Filippo
+        image : 
+      - name : Althea
+        image : 
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Monday, 17:30 - 19:00"
+        info : "Friday, 17:30 - 19:00"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
-        info : "Cohen Quad, Eltis room"
+        info : "Online"
 
    
 
@@ -36,8 +38,8 @@ pricingTable :
       - item : Communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters
       - item : Describe in simple terms aspects of your background, immediate environment and matters in areas of immediate need
     teachers:
-      - name : Ettore
-        image : /images/teachers/Ettore.png
+      - name : Piero 
+        image : 
       # - name : Filippo
       #   image : /images/teachers/Filippo.png
     details: 
@@ -46,11 +48,11 @@ pricingTable :
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Wednesday, 19:30 - 21:00"
+        info : "Friday, 18:00 - 19:30"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
-        info : "Wadham College"
+        info : "Online"
 
 
             
@@ -62,21 +64,19 @@ pricingTable :
       - item: Interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible without strain for either party
       - item: Produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options
     teachers:
-      - name : Giovanni
-        image : /images/teachers/Giovanni.jpg
-      - name : Emma
-        image : /images/teachers/Emma.jpg
+      - name : Luca 
+        image : 
     details: 
       - icon : 
         info : "Weekly lessons of 90min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Monday, 19:30 - 21:00"
+        info : "Monday, 18:00 - 19:30"
       - icon : tf-ion-pricetags
         info : "OUIS: £15/term -- External: £25/term"
       - icon : tf-map-pin
-        info : "Somerville College"
+        info : "Online"
 
 
 
