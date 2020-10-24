@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/giulioTremonti.jpg
 week : 0
-old: false
+old: true 
 startDate : 2020-04-24T14:30:00Z
 endDate : 2020-04-20T15:30:00Z
 place : Live on ASP Facebook Page

@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/marcoMontemagno.png
 week : 3
-old: false
+old: true
 startDate : 2020-05-13T15:00:00Z
 endDate : 2020-05-13T16:00:00Z
 place : Live on our Facebook Page

@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/andreaGarnero.png
 week : 5
-old: false
+old: true
 startDate : 2020-05-30T10:00:00Z
 endDate : 2020-05-30T11:00:00Z
 place : Live on our Facebook Page

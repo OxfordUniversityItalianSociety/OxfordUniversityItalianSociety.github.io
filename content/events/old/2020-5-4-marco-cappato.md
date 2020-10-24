@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/marcoCappato.jpg
 week : 2
-old: false
+old: true
 startDate : 2020-05-04T11:00:00Z
 endDate : 2020-05-04T12:00:00Z
 place : Live on our Facebook Page
