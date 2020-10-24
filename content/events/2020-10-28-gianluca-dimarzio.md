@@ -1,23 +1,14 @@
 ---
 types : speaker
-image : images/events/Elsa_Fornero.jpg
-week : 5
+image : images/events/Gianluca_DiMarzio.png
+week : 3
 old: false
-startDate : 2019-05-27T17:15:00Z
-endDate : 2019-05-27T18:30:00Z
-place : Cohen Quad
-title : Elsa Fornero
+startDate : 2020-10-28T18:00:00Z
+endDate : 2020-10-28T19:00:00Z
+place : Live on our Facebook page
+title : Gianluca Di Marzio
 ---
 
-OUIS is delighted to be welcoming former Minister, Professor Elsa Fornero.
+Gianluca di Marzio is one of the most world-renowned sport journalists and is best known for being a leading football transfer expert. As well as working at Sky Italia, Mr Di Marzio also created his own football news [platform](http://gianlucadimarzio.com) and has recently released his new book “Grand Hotel Calciomercato”.
 
-She will address the audience discussing her incredibly influential role in government as well as her thoughts, expectations and hopes for the future. Her address will be followed by a Q&A session.
-
-The event will be entirely held in English.
-
-This will be a great chance to ask a world leading expert about the current Italian and European political and economic situation.
-
-This event is free for OUIS members and shall cost £3 on entry for non-members. Membership may, as always, be purchased on the door.
-
-Dinner with Professor Fornero - formal hall at New College - will also be available via ballot. To ballot please fill out [this form](https://forms.gle/4WyYrbUAToxJL5zz6).
-
+A brief speech will be followed by a LIVE Q&A section to allow you to ask questions. Feel free to submit your questions in advance [here](https://tinyurl.com/gianlucadimarzioatouis).
