@@ -2,7 +2,7 @@ enable : true
 heading : Our Italian
 headingSpan : Classes
 contact : Join our language courses!
-contactDetails : "If you have any questions, or if you wish to sign up for one of our language courses, please fill the form in this section or contact us at oxfordclasses@italymail.com"
+contactDetails : "If you have any questions, or if you wish to sign up for one of our language courses, please fill the form in this section."
 pricingTable :
   - title : Beginner
     chatIT : "Ciao! Come stai?"
