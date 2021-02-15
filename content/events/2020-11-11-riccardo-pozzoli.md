@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/riccardoPozzoli.jpg
 week : 5
-old: true
+old: false
 startDate : 2020-11-11T18:00:00Z
 endDate : 2020-11-11T19:00:00Z
 place : Live on our Facebook page

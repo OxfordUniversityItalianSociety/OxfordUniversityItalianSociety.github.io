@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/andrewHowe.jpg
 week : 9
-old: true
+old: false
 startDate : 2020-12-09T18:00:00Z
 endDate : 2020-12-09T19:00:00Z
 place : Live on our Facebook page
