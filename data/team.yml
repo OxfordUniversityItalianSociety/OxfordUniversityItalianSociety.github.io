@@ -31,7 +31,7 @@ teamMemberExecutive :
       # - icon : tf-ion-social-twitter
       #   url : "#"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/emma-baldassari-73963bb8?originalSubdomain=it&fbclid=IwAR3T-6PrNDakSHaxGmKQldXbpS53HdpsNEAKUYx4cE16Sn--AZlQjFDUbFU"
+        url : "https://www.linkedin.com/in/emma-baldassari-0bb190188/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
@@ -137,26 +137,37 @@ teamMemberJunior :
       #   url : "#"
 
 teamMemberOld :
+  - year : 2020
+    committee :
+      - name : Giuliano Formisano
+        designation : President
+        url : "https://www.linkedin.com/in/giuliano-formisano-78764a138/"
+      - name : Emma Baldassari
+        designation : Secretary
+        url : "https://www.linkedin.com/in/emma-baldassari-0bb190188/"
+      - name : Fabio Spagliardi
+        designation : Treasurer
+        url : "https://www.linkedin.com/in/fabiospagliardi/"
   - year : 2019
     committee :
       - name : Francesco Galvanetto
-        designation : president
+        designation : President
         url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
       - name : Federico Danieli
-        designation : secretary
+        designation : Secretary
         url : "https://www.linkedin.com/in/federico-danieli-4782a0b5/"
       - name : Emma Belletti
-        designation : treasurer
+        designation : Treasurer
         url : "https://www.linkedin.com/in/emma-belletti-1a8362174/?originalSubdomain=it"
   - year : 2018
     committee :
       - name : Veronica Pagnoni
-        designation : president
-        url : https://www.facebook.com/vero.pagnoni
+        designation : President
+        url : "https://www.facebook.com/vero.pagnoni"
       - name : Constanța Burlacu
-        designation : secretary
+        designation : Secretary
       - name : Cristian Trovato
-        designation : treasurer
+        designation : Treasurer
         url : "https://www.facebook.com/cristian.trovato"
 
 
