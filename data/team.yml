@@ -7,45 +7,45 @@ subHeading3 : Past Executive Committees
 subHeading4 : Senior Committee
 
 teamMemberExecutive :
-  - image : images/team/giulianoFormisanoPresident.jpg
-    name : Giuliano Formisano
+  - image : images/team/Giulia-Lanzafame-President.jpeg
+    name : Giulia Lanzafame
     designation : President
     description : ""
     socialIcon :
       - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/giuliano.formisano1"
+        url : "https://www.facebook.com/giulia.lanzafame.39"
       - icon : tf-ion-social-twitter
-        url : "https://twitter.com/giuformisano"
+        url : "https://twitter.com/lanzafamegiulia"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/giuliano-formisano-78764a138/"
+        url : "https://www.linkedin.com/in/giulia-lanzafame-2005071a9/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/emmaBaldassariSec.jpg
-    name : Emma Baldassari
+  - image : images/team/Emanuele-Chisari-secretary.jpeg
+    name : Emanuele Chisari
     designation : Secretary
     description : ""
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/emma.baldassari.58/"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
+      # - icon : tf-ion-social-facebook
+      #   url : "https://www.facebook.com/emma.baldassari.58/"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/EmanueleChisari"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/emma-baldassari-0bb190188/"
+        url : "https://www.linkedin.com/in/emanuele-chisari/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/fabioSpagliardiTreasurer.jpeg
-    name : Fabio Spagliardi
+  - image : images/team/Alessandro-Cavallo-treasurer.jpeg
+    name : Alessandro Cavallo
     designation : Treasurer - IT Officer
     description : ""
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/fabio.spagliardi02/"
+      # - icon : tf-ion-social-facebook
+      #   url : "#"
       - icon : tf-ion-social-twitter
-        url : "https://twitter.com/FSpagliardi"
+        url : "https://twitter.com/aless_cavallo"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/fabiospagliardi/"
+        url : "https://www.linkedin.com/in/aless-cavallo/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
