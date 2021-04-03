@@ -2,7 +2,7 @@ enable : true
 heading : Our Italian
 headingSpan : Classes
 contact : Join our language courses!
-contactDetails : "If you have any questions, or if you wish to sign up for one of our language courses, please fill the form in this section."
+contactDetails : "If you have any questions, or if you wish to sign up for one of our language courses, please fill the form in this section. [prova](https://forms.gle/zvXYV1PG7iCyDbkK9)"
 pricingTable :
   - title : Beginner
     chatIT : "Ciao! Come stai?"
@@ -12,7 +12,7 @@ pricingTable :
       - item : Introduce yourself and others and ask and answer questions about personal details such as where you live, people you know and things you have
       - item : Interact in a simple way provided the other person talks slowly and clearly and is prepared to help
     teachers:
-      - name : Valeria
+      - name : 
         image : 
     details: 
       - icon : 
@@ -22,7 +22,7 @@ pricingTable :
       - icon : tf-ion-android-time
         info : "Thursday, 17:00 - 18:30"
       - icon : tf-ion-pricetags
-        info : "OUIS: £15/term -- External: £25/term"
+        info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
         info : "Online"
 
@@ -48,7 +48,7 @@ pricingTable :
       - icon : tf-ion-android-time
         info : "Thursday, 17:30 - 19:00"
       - icon : tf-ion-pricetags
-        info : "OUIS: £15/term -- External: £25/term"
+        info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
         info : "Online"
 
@@ -62,7 +62,7 @@ pricingTable :
       - item: Interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible without strain for either party
       - item: Produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options
     teachers:
-      - name : Piero 
+      - name : 
         image : 
     details: 
       - icon : 
@@ -72,7 +72,7 @@ pricingTable :
       - icon : tf-ion-android-time
         info : "Friday, 19:00 - 20:30"
       - icon : tf-ion-pricetags
-        info : "OUIS: £15/term -- External: £25/term"
+        info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
         info : "Online"
 
@@ -96,6 +96,6 @@ pricingTable :
   #     - icon : tf-ion-android-time
   #       info : "Monday, 7:00pm - 8:30pm"
   #     - icon : tf-ion-pricetags
-  #       info : "OUIS: £15/term -- External: £25/term"
+  #       info : "OUIS members: £15/term -- Non-members: £25/term"
   #     - icon : tf-map-pin
   #       info : "Oxford University Student Union"

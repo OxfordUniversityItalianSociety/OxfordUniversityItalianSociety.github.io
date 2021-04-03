@@ -14,17 +14,17 @@ contactDetails :
   - icon : tf-ion-ios-email-outline
     info : "Contact email: italy.society@studentclubs.ox.ac.uk"
 pricingTable :
-  - title : Short
-    price : £5
-    time : term
-    description : "I'm only staying in Oxford for a short while, but your events definitely caught my attention"
+# - title : One term
+#   price : £5
+#   time : term
+#   description : "I'm only staying in Oxford for a short while, but your events definitely caught my attention"
 
-  - title : Medium
+  - title : One year
     price : £10
     time : year
-    description : "You seem like a cool bunch, and I want to stick with you for a bit longer: show me what you've got"
+    description : "You seem like a cool bunch, and I want to stick with you for a year: show me what you've got"
      
-  - title : Long
+  - title : Three years
     price : £20
     time : 3 years
     description : "Oxford is sucking my soul away: to see it to the end I need your weekly dose of fun and pizza"
