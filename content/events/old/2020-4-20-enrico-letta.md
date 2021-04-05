@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/enricoLetta.jpg
 week : 0
-old: false
+old: true
 startDate : 2020-04-20T15:00:00Z
 endDate : 2020-04-20T16:30:00Z
 place : Live on our Facebook Page

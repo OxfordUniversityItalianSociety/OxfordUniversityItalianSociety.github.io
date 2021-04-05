@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/soniaPeronaci.png
 week : 7
-old: false
+old: true
 startDate : 2021-03-01T17:00:00Z
 endDate : 2021-03-01T18:00:00Z
 place : Live on our Facebook page

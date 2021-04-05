@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/Gianluca_DiMarzio.png
 week : 3
-old: false
+old: true
 startDate : 2020-10-28T18:00:00Z
 endDate : 2020-10-28T19:00:00Z
 place : Live on our Facebook page

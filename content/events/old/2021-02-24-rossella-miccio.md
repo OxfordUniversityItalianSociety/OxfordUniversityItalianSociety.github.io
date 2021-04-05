@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/rossellaMiccio.jpg
 week : 6
-old: false
+old: true
 startDate : 2021-02-24T18:00:00Z
 endDate : 2021-02-24T19:00:00Z
 place : Live on our Facebook page
