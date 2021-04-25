@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/Know-your-embassy.jpeg
 week : -2
-old: false
+old: true
 startDate : 2021-04-08T18:00:00Z
 endDate : 2021-04-08T19:00:00Z
 place : Zoom

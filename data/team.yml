@@ -52,6 +52,62 @@ teamMemberExecutive :
 
 
 teamMemberJunior :
+  - image : images/team/ceciliaCorsiniSocial.jpg
+    name : Cecilia Corsini
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : ""
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/cecilia-corsini-854459127/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/aleksandra-matkowska.jpg
+    name : Aleksandra Matkowska
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/profile.php?id=100007906937928"
+      # - icon : tf-ion-social-twitter
+      #   url : "https://twitter.com/jamesmaxia"
+      # - icon : tf-ion-social-linkedin
+      #   url : "https://www.linkedin.com/in/jamesmaxia/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/erik-hormann.jpg
+    name : Erik Hörmann
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/erik.hormann.7/"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      - icon : tf-ion-social-linkedin
+        url : "http://www.linkedin.com/in/erik-hormann"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
+  - image : images/team/tamara-di-marco.jpeg
+    name : Tamara Di Marco
+    designation : Social Media Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : "#"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      # - icon : tf-ion-social-linkedin
+      #   url : "#"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
   - image : images/team/alessandroBarberisSaggio.jpg
     name : Alessandro Barberis
     designation : Senior Member
@@ -80,61 +136,6 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/ceciliaCorsiniSocial.jpg
-    name : Cecilia Corsini
-    designation : Social Media Officer
-    description : ""
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : ""
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/cecilia-corsini-854459127/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/jamesMaxiaSocial.png
-    name : James Maxia
-    designation : Social Media Officer
-    description : ""
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/giorgia.ramazzotti.33"
-      - icon : tf-ion-social-twitter
-        url : "https://twitter.com/jamesmaxia"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/jamesmaxia/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/giorgiaRamazzottiSocial.jpg
-    name : Giorgia Ramazzotti
-    designation : Social Media Officer
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/giorgia.ramazzotti.33"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "http://linkedin.com/in/giorgia-ramazzotti-87563414a"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/giovanniRaiteriSponsor.png
-    name : Giovanni Raiteri
-    designation : Sponsorship Officer
-    description : ""
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/giorgia.ramazzotti.33"
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/giovanni-raiteri-41658b185/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
 
 teamMemberOld :
   - year : 2020
