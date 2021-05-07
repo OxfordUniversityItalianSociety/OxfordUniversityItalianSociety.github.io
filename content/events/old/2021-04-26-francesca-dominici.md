@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/dominici-francesca.jpg
 week : 1
-old: false
+old: true
 startDate : 2021-04-26T16:00:00Z
 endDate : 2021-04-26T17:00:00Z
 place : Live on our Facebook page
