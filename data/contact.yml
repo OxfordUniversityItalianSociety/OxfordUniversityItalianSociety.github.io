@@ -2,7 +2,7 @@ enable : true
 heading : Get In
 headingSpan : Touch
 title : Contact Details
-content : "We always welcome any qustions, recommendations, or suggestions you might have. For general enquiries, feel free to contact us at italy.society@studentclubs.ox.ac.uk, or to fill the form in this section."
+content : "We always welcome any questions, recommendations, or suggestions you might have. For general enquiries, feel free to contact us at italy.society@studentclubs.ox.ac.uk, or to fill the form in this section."
 enable_maps : false
 mapLatitude : 51.752022
 mapLongitude: -1.257677

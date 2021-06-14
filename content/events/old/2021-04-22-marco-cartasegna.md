@@ -6,7 +6,7 @@ old: true
 startDate : 2021-04-22T18:00:00Z
 endDate : 2021-04-22T19:00:00Z
 place : Live on our Facebook page
-title : Interview with Marco Cartasegna
+title : Marco Cartasegna
 ---
 Introducing our next guest, founder of Torcha, Marco Cartasegna. 
 After graduating with a degree in Economics and Management at Bocconi University in Milan, and completing a specialisation in Management and Digital Business in Madrid, Marco Cartasegna founded Torcha in the spring of 2020. 

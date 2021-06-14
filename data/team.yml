@@ -4,7 +4,7 @@ headingSpan : Committee
 subHeading1 : Executive Committee
 subHeading2 : Extended Committee
 subHeading3 : Past Executive Committees
-subHeading4 : Senior Committee
+subHeading4 : Collaborators
 
 teamMemberExecutive :
   - image : images/team/Giulia-Lanzafame-President.jpeg
@@ -108,33 +108,6 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/alessandroBarberisSaggio.jpg
-    name : Alessandro Barberis
-    designation : Senior Member
-    description : ""
-    socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/alessandro.barberis01"
-      - icon : tf-ion-social-twitter
-        url : "https://twitter.com/barberis_ale"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/alessandro-barberis-81673888/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
-
-  - image : images/team/francescoGalvanettoSaggio.png
-    name : Francesco Galvanetto
-    designation : Senior Member
-    description : ""
-    socialIcon :
-      # - icon : tf-ion-social-facebook
-      #   url : ""
-      # - icon : tf-ion-social-twitter
-      #   url : "#"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/francesco-galvanetto-2b228b182/"
-      # - icon : tf-ion-social-dribbble-outline
-      #   url : "#"
 
 
 teamMemberOld :
@@ -174,7 +147,7 @@ teamMemberOld :
 
 
 #
-# teamMemberSenior :
+# teamPosizione :
 #   - image : images/team/team-3.jpg
 #     name : Emma Belletti
 #     designation : Treasurer
