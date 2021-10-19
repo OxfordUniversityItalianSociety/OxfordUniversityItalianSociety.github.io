@@ -35,7 +35,7 @@ teamMemberExecutive :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/Alessandro-Cavallo-treasurer.jpeg
+  - image : images/team/alessandro-cavallo.jpg
     name : Alessandro Cavallo
     designation : Treasurer - IT Officer
     description : ""
@@ -108,7 +108,19 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-
+  - image : images/team/elena-bonacini.jpg
+    name : Elena Bonacini
+    designation : Events Officer
+    description : ""
+    socialIcon :
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/elena.bonacini.35"
+      - icon : tf-ion-social-twitter
+        url : "https://twitter.com/elebonacini"
+      # - icon : tf-ion-social-linkedin
+      #   url : "#"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
 
 teamMemberOld :
   - year : 2020
