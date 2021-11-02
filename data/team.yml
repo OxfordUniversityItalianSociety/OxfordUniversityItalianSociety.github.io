@@ -122,6 +122,20 @@ teamMemberJunior :
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
+  - image : images/team/sara-frumento.jpg
+    name : Sara Frumento
+    designation : Events Officer
+    description : ""
+    socialIcon :
+      # - icon : tf-ion-social-facebook
+      #   url : ""
+      # - icon : tf-ion-social-twitter
+      #   url : ""
+      - icon : tf-ion-social-linkedin
+        url : "https://www.linkedin.com/in/sara-frumento-74253a1a2/"
+      # - icon : tf-ion-social-dribbble-outline
+      #   url : "#"
+
 teamMemberOld :
   - year : 2020
     committee :
