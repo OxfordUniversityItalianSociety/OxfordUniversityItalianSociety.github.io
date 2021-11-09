@@ -2,7 +2,7 @@
 types : speaker
 image : images/events/emma-bonino.jpg
 week : 4
-old: false
+old: true
 startDate : 2021-11-05T15:00:00Z
 endDate : 2021-11-05T16:00:00Z
 place : Live on our Facebook page
