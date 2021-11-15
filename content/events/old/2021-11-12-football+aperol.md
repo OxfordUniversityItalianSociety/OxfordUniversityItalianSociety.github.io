@@ -2,7 +2,7 @@
 types : social
 image : images/events/football-night.jpg
 week : 5
-old: false
+old: true
 startDate : 2021-11-12T19:30:00Z
 endDate : 2021-11-12T22:30:00Z
 place : Okinaga room, Wadham College
