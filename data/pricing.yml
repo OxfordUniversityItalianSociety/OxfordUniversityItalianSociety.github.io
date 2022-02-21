@@ -16,11 +16,11 @@ pricingTable :
         image : 
     details: 
       - icon : 
-        info : "Weekly lessons of 90min each"
+        info : "Weekly lessons of 60 min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Monday, 18:00 - 19:30"
+        info : "Tuesday, 18:00 - 19:00"
       - icon : tf-ion-pricetags
         info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
@@ -36,17 +36,17 @@ pricingTable :
       - item : Communicate in simple and routine tasks requiring a simple and direct exchange of information on familiar and routine matters
       - item : Describe in simple terms aspects of your background, immediate environment and matters in areas of immediate need
     teachers:
-      - name : Elisa 
+      - name : Francesca 
         image : 
       # - name : Filippo
       #   image : /images/teachers/Filippo.png
     details: 
       - icon : 
-        info : "Weekly lessons of 90min each"
+        info : "Weekly lessons of 60 min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Wednesday, 17:30 - 19:00"
+        info : "Tuesday, 18:00 - 19:00"
       - icon : tf-ion-pricetags
         info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
@@ -66,11 +66,11 @@ pricingTable :
         image : 
     details: 
       - icon : 
-        info : "Weekly lessons of 90min each"
+        info : "Weekly lessons of 60 min each"
       - icon : tf-ion-android-calendar
         info : "During each term, weeks 1-8"
       - icon : tf-ion-android-time
-        info : "Monday, 17:30 - 19:00"
+        info : "Monday, 18:00 - 19:00"
       - icon : tf-ion-pricetags
         info : "OUIS members: £15/term -- Non-members: £25/term"
       - icon : tf-map-pin
