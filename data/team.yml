@@ -137,6 +137,17 @@ teamMemberJunior :
       #   url : "#"
 
 teamMemberOld :
+  - year : 2021
+    committee :
+      - name : Giulia Lanzafame
+        designation : President
+        url : "https://www.linkedin.com/in/giulia-lanzafame/"
+      - name : Emanuele Chisari
+        designation : Secretary
+        url : "https://www.linkedin.com/in/emanuele-chisari"
+      - name : Alessandro Cavallo
+        designation : Treasurer
+        url : "https://www.linkedin.com/in/aless-cavallo/"
   - year : 2020
     committee :
       - name : Giuliano Formisano

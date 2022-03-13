@@ -2,7 +2,7 @@
 types : social
 image : images/events/cheese-tasting.jpg
 week : 6
-old: false
+old: true
 startDate : 2022-02-24T20:30:00Z
 endDate : 2022-02-24T22:30:00Z
 place : St Hilda's College MCR
