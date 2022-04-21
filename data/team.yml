@@ -7,45 +7,46 @@ subHeading3 : Past Executive Committees
 subHeading4 : Collaborators
 
 teamMemberExecutive :
-  - image : images/team/Giulia-Lanzafame-President.jpeg
-    name : Giulia Lanzafame
+  - image : images/team/sara-frumento.jpg
+    name : Sara Frumento
     designation : President
     description : ""
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "https://www.facebook.com/giulia.lanzafame.39"
-      - icon : tf-ion-social-twitter
-        url : "https://twitter.com/lanzafamegiulia"
+      # - icon : tf-ion-social-facebook
+      #   url : ""
+      # - icon : tf-ion-social-twitter
+      #   url : ""
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/giulia-lanzafame-2005071a9/"
+        url : "https://www.linkedin.com/in/sara-frumento-74253a1a2/"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
+      #   url : "#"
 
-  - image : images/team/Emanuele-Chisari-secretary.jpeg
-    name : Emanuele Chisari
+  - image : images/team/tamara-di-marco.jpeg
+    name : Tamara Di Marco
     designation : Secretary
     description : ""
     socialIcon :
       # - icon : tf-ion-social-facebook
-      #   url : "https://www.facebook.com/emma.baldassari.58/"
-      - icon : tf-ion-social-twitter
-        url : "https://twitter.com/EmanueleChisari"
-      - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/emanuele-chisari/"
+      #   url : "#"
+      # - icon : tf-ion-social-twitter
+      #   url : "#"
+      # - icon : tf-ion-social-linkedin
+      #   url : "#"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
-  - image : images/team/alessandro-cavallo.jpg
-    name : Alessandro Cavallo
+  - image : images/team/erik-hormann.jpg
+    name : Erik Hörmann
     designation : Treasurer - IT Officer
     description : ""
     socialIcon :
-      # - icon : tf-ion-social-facebook
+      - icon : tf-ion-social-facebook
+        url : "https://www.facebook.com/erik.hormann.7/"
+      # - icon : tf-ion-social-twitter
       #   url : "#"
-      - icon : tf-ion-social-twitter
-        url : "https://twitter.com/aless_cavallo"
       - icon : tf-ion-social-linkedin
-        url : "https://www.linkedin.com/in/aless-cavallo/"
+        url : "http://www.linkedin.com/in/erik-hormann"
       # - icon : tf-ion-social-dribbble-outline
       #   url : "#"
 
