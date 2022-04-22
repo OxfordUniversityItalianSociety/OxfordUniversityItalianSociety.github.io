@@ -1,0 +1,13 @@
+enable : false
+image : images/about/about-business-man.jpg
+title : Welcome to the hub for Oxonians with an interest in all things Italian
+description : "Here's a glimpse of what our society has to offer"
+description2 : ""
+# aboutItem : 
+#   - icon : tf-circle-compass
+#     title : SEO Optimized
+#     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    
+#   - icon : tf-hotairballoon
+#     title : Easy Customization
+#     content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

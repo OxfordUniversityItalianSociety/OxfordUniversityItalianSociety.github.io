@@ -1,0 +1,35 @@
+enable : true
+heading : Our Membership
+headingSpan : Plans
+# subheading : Pick the profile that best suits you
+# description : Are you only passing by Oxford, and you want to hang out with some friendly people? You're staying here for a while, and you want to be more involved with the community? Either case, we've got you covered
+contact : Become a Member
+prosIntro : "You're just one step away from joining our wonderful community! Being a member of OUIS gives you access to a variety of benefits:"
+pros :
+  - info : free/discounted access to OUIS events
+  - info : discounted prices for our language courses
+prosOutro : "To become a member, you only need to fill in the form in this page, reporting as subject the kind of membership you wish. We will soon be in touch with the payment details. You can also use it to ask for more info regarding membership fees and benefits, or equivalently you can contact us at italy.society@studentclubs.ox.ac.uk"
+contactDetails :
+  - icon : tf-ion-ios-email-outline
+    info : "Contact email: italy.society@studentclubs.ox.ac.uk"
+pricingTable :
+# - title : One term
+#   price : £5
+#   time : term
+#   description : "I'm only staying in Oxford for a short while, but your events definitely caught my attention"
+
+  - title : One year
+    price : £10
+    time : year
+    description : "You seem like a cool bunch, and I want to stick with you for a year: show me what you've got"
+     
+  - title : Three years
+    price : £20
+    time : 3 years
+    description : "Oxford is sucking my soul away: to see it to the end I need your weekly dose of fun and pizza"
+
+  - title : Life
+    price : £30
+    time : ∞
+    description : "Mamma mia, it was love at first sight: I can't get enough of listening to Italians speaking"
+            

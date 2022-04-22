@@ -1,0 +1,133 @@
+baseURL = "https://oxforduniversityitaliansociety.github.io/"
+languageCode = "en-uk"
+DefaultContentLanguage = "en"
+title = "OUIS"
+theme = "meghna"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "About Us"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Join"
+    URL = "join-us"
+    weight = 3
+
+
+    [[menu.nav]]
+    name = "Events"
+    URL = "events"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Classes"
+    URL = "classes"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Sponsors"
+    URL = "sponsors"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Committee"
+    URL = "committee"
+    weight = 7
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 8
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logoFabio.png"
+logoFull = "images/logoFabioFull.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Oxford University Italian Society website"
+author = "OUIS"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/oxfordRadCam.jpg!d"
+    icon = "tf-ion-play"
+    heading = "The Oxford University Italian Society"
+    content= ""
+    btn = true
+    btnText="Explore Us"
+    btnURL="#about"
+
+    # call to action
+    [params.cta]
+    enable = true
+    title = "A friendly community & a variety of events"
+    content = "Whether you are fascinated by our culture, or you just feel nostalgic about Italy, join our society to enjoy Bella Vita!"
+    bgImage = "images/backgrounds/coffee.jpg"
+    btnURL = "membership"
+    btnText = "Join Us"
+
+    # counter
+    [params.counter]
+    enable = true
+    bgImage = "images/backgrounds/cheers.jpg"
+        [[params.counter.counterItem]]
+        title = "Current Members"
+        icon = "tf-ion-android-happy"
+        count = "1320"
+
+        [[params.counter.counterItem]]
+        title = "Events Organised"
+        icon = "tf-ion-wineglass"
+        count = "565"
+
+        [[params.counter.counterItem]]
+        title = "Language Students"
+        icon = "tf-ion-chatboxes"
+        count = "95"
+
+        [[params.counter.counterItem]]
+        title = "Pizzas Offered"
+        icon = "tf-ion-pizza"
+        count = "2500"
+
+    # footer
+    [params.footer]
+        copyright = "Themefisher Team"
+        copyrightURL = "http://www.themefisher.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/OxfordUniversityItalianSociety/"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "https://www.instagram.com/oxforditaliansoc/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/OUItaSoc"
+
+    # 404 Page
+    [params.notfound]
+    enable = true
+    bgImage = "images/404/pizza.jpg"
+    heading = "404 Not Found"
+    content= "Seems like you got lost somewhere strange. But we've got you covered: have a virtual pizza on us!"
+    btn = true
+    btnText="Back to Website"

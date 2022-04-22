@@ -1,0 +1,62 @@
+enable : true
+heading: Our
+headingSpan: Sponsors
+heading2: Become a
+headingSpan2: Sponsor
+bgImage : images/backgrounds/handshake.jpeg
+description: "Special thanks to our sponsors and partners for contributing to make this all happen"
+becomeSponsorURL : '/sponsorship'
+donateURL : https://www.campaign.ox.ac.uk/page.aspx?pid=2698&id=8fdfa0de-90cc-4b06-9f3e-e24205623161
+testimonialItem :
+  - name : Intesa Sanpaolo
+    image : images/sponsors/IntesaSanpaolo.jpg
+
+longDescription : Interested in sponsoring the Italian Society? We are extremely grateful to our sponsors, who allow the Society to organise inspiring talks and cultural events which bring the Italian community of Oxford together. Your money will go towards widening the range of events we can offer to our members, improving the quality of our Italian lessons and keeping our event fees affordable for everyone. Here are our proposals!
+sponsorshipPlans:
+  - title : Oro Sponsorship
+    img : ../images/sponsors/gold.png
+    color : '#f7ca60'
+    duration : 1 year
+    price : £2000
+    perks : 
+      - item : One in-person* recruitment/networking event per year, held in one of our Oxford Colleges, where a delegation from your company will be able to meet Oxford University Italian Society members and non-members, including current Oxford students and alumni. Our Treasurer and executive committee will organise the event, tailoring it to your company’s vision. *Should an in-person event not be possible, e.g. due to Covid restrictions, two virtual recruitment/networking events per year will be organised instead.
+      - item : Two posts per term** on our Facebook and LinkedIn pages (combined followers amount to 1712 as of April, 9th 2021), as well as on our Newsletter (1213 subscribers as of April, 9th 2021). The posts/newsletter mentions can either be general advertisement for your company’s services/products, or for specific events, work placements, positions, etc. **Oxford University term dates can be found at www.ox.ac.uk/about/facts-and-figures/dates-of-term
+      - item : Mention of your company as a sponsor at the end of every interview, both virtual and in-person, and podcast. Virtual interviews are recorded and remain on our Facebook page and YouTube channel, so your company will remain featured on the recordings indefinitely. Past interviewees included Italian Ambassador to the UK Raffaele Trombetta, former Prime Minister Enrico Letta, entrepreneur and Chairman of Juventus F. C. Andrea Agnelli, former Minister Elsa Fornero, and many other high-calibre public figures (listed in the Events section of our website).
+      - item : Your company's logo to appear on the Society's website.
+
+
+  - title : Argento Sponsorship
+    img : ../images/sponsors/silver.png
+    color : '#cfd2d6'
+    duration : 1 year
+    price : £750
+    perks : 
+      - item : Two posts per term** on our Facebook and LinkedIn pages (combined followers amount to 1712 as of April, 9th 2021), as well as on our Newsletter (1213 subscribers as of April, 9th 2021). The posts/newsletter mentions can either be general advertisement for your company’s services/products, or for specific events, work placements, positions, etc. **Oxford University term dates can be found here.
+      - item : Your company's logo to appear on the Society's website.
+
+
+  - title : Bronzo Sponsorship
+    img : ../images/sponsors/bronze.png
+    color : '#b07d53'
+    duration : 1 year
+    price : £350
+    perks : 
+      - item : One post per year on our Facebook and LinkedIn pages (combined followers amount to 1712 as of April, 9th 2021), as well as on our Newsletter (1213 subscribers as of April, 9th 2021). The posts/newsletter mentions can either be general advertisement for your company’s services/products, or for specific events, work placements, positions, etc.
+      - item : Your company's logo to appear on the Society's website.
+
+
+  # - title : Other Sponsorships
+  #   img : 
+  #   color : 
+  #   duration : 
+  #   price : 
+  #   perks : 
+  #     - item : If you own a restaurant or a shop, we are happy to discuss discounts for members in exchange for publicity and use of your location for our events!
+
+contact : Become a Sponsor for our Society!
+contactDetails : 
+  - item : We are extremely grateful to our Sponsors, who allow our Society to keep flourishing. Our Sponsors' contributions go towards widening the range of events we can offer to our members, improving the quality of our Italian lessons and keeping our event fees affordable for everyone.
+  - item : If you're interested in sponsoring our society, you are very welcome to contact us using this form, or the email below. We are also happy to discuss taylored sponsorship plans.
+mailAddress :
+  - icon : tf-ion-ios-email-outline
+    info : "Contact email: italy.society@studentclubs.ox.ac.uk"

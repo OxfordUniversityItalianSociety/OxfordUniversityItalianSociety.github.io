@@ -1,0 +1,17 @@
+enable : true
+heading : Our
+headingSpan : Events
+filterList :
+  - filterType : speaker
+    filterTitle : Speakers
+    
+  - filterType : cinema
+    filterTitle : Cinema
+    
+  - filterType : social
+    filterTitle : Social
+
+WIPimage : images/events/workInProgress.png
+
+noEventsBanner: Work in Progress
+noEventsDescription: The term is now over, and we're taking this time to cook up a plan for the upcoming events. Stay tuned for updates!
